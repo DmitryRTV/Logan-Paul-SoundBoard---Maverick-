@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "62232BCFEDAC636D8D2EFD6D481F75C36A73C764",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "62232BCFEDAC636D8D2EFD6D481F75C36A73C764" : 9223372036854775807,
+    "1C672E56514DC4CC8A9F1EDB4FD88AFF5F40D17B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F895EB7E-9594-43F8-8C22-C09B432E27B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "62232BCFEDAC636D8D2EFD6D481F75C36A73C764" : "SoundBoard\/",
+    "1C672E56514DC4CC8A9F1EDB4FD88AFF5F40D17B" : "SoundBoard\/LoganPaulSoundBoard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LoganPaulSoundBoard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LoganPaulSoundBoard.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:DmitryRTV\/Logan-Paul-SoundBoard---Maverick-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C672E56514DC4CC8A9F1EDB4FD88AFF5F40D17B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:DmitryRTV\/Logan-Paul-SoundBoard---Maverick-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62232BCFEDAC636D8D2EFD6D481F75C36A73C764"
+    }
+  ]
+}
