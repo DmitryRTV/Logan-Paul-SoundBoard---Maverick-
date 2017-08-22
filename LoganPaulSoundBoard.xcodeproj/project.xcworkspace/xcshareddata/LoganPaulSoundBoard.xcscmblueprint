@@ -9,8 +9,8 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F895EB7E-9594-43F8-8C22-C09B432E27B3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "62232BCFEDAC636D8D2EFD6D481F75C36A73C764" : "SoundBoard\/",
-    "1C672E56514DC4CC8A9F1EDB4FD88AFF5F40D17B" : "SoundBoard\/LoganPaulSoundBoard\/"
+    "62232BCFEDAC636D8D2EFD6D481F75C36A73C764" : "LoganPaulSoundBoard\/",
+    "1C672E56514DC4CC8A9F1EDB4FD88AFF5F40D17B" : "LoganPaulSoundBoard\/LoganPaulSoundBoard\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LoganPaulSoundBoard",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
