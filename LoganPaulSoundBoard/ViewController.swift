@@ -12,7 +12,10 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    var btnSound: AVAudioPlayer!
+    var rUgoodBro: AVAudioPlayer!
+    var whatspopping: AVAudioPlayer!
+    var goodBroSurvey: AVAudioPlayer!
+    var introsong: AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,22 +24,90 @@ class ViewController: UIViewController {
         let soundURL = URL(fileURLWithPath: path!)
         
         do {
-            try btnSound = AVAudioPlayer(contentsOf: soundURL)
-            btnSound.prepareToPlay()
+            try rUgoodBro = AVAudioPlayer(contentsOf: soundURL)
+            rUgoodBro.prepareToPlay()
         } catch let err as NSError {
             print(err.debugDescription)
         }
-    }
-    
-    @IBAction func numberPressed(sender: UIButton){
-        playSound()
-    }
-    
-    func playSound(){
-        if btnSound.isPlaying{
-            btnSound.stop()
+        
+        
+        
+        
+        let pathTwo = Bundle.main.path(forResource: "whatspapping", ofType: "wav")
+       let soundURLtwo = URL(fileURLWithPath: pathTwo!)
+        do {
+            try whatspopping = AVAudioPlayer(contentsOf: soundURLtwo)
+            whatspopping.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
         }
-        btnSound.play()
+        
+       
+        
+        
+        let pathThree = Bundle.main.path(forResource: "goodBroSurvey", ofType: "wav")
+        let soundURLthree = URL(fileURLWithPath: pathThree!)
+        do {
+            try goodBroSurvey = AVAudioPlayer(contentsOf: soundURLthree)
+            goodBroSurvey.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+        
+        
+        let pathFour = Bundle.main.path(forResource: "introsong", ofType: "wav")
+        let soundURLfour = URL(fileURLWithPath: pathFour!)
+        do {
+            try introsong = AVAudioPlayer(contentsOf: soundURLfour)
+            introsong.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+        
     }
+    
+    
+    @IBAction func introsongPressed(sender: UIButton){
+        playintrosong()
+    }
+    
+    @IBAction func playrUgoodBroPressed(sender: UIButton){
+        playrUgoodBro()
+    }
+    
+    @IBAction func whatspoppingPressed(sender: UIButton){
+        playwhatspopping()
+    }
+    
+    @IBAction func goodBroSurveyPressed(sender: UIButton){
+        playgoodBroSurvey()
+    }
+    
+    func playintrosong(){
+        if introsong.isPlaying{
+            introsong.stop()
+        }
+        introsong.play()
+    }
+    func playgoodBroSurvey() {
+        if goodBroSurvey.isPlaying{
+            goodBroSurvey.stop()
+        }
+        goodBroSurvey.play()
+    }
+    
+    func playwhatspopping(){
+        if whatspopping.isPlaying{
+            whatspopping.stop()
+        }
+        whatspopping.play()
+    }
+    func playrUgoodBro(){
+        if rUgoodBro.isPlaying{
+            rUgoodBro.stop()
+        }
+        rUgoodBro.play()
+    }
+    
 }
 

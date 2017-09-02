@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -38,7 +38,7 @@
                                                 <rect key="frame" x="25" y="4" width="363" height="167"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MavrickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="juX-k0-Cgd" userLabel="headMavrickLogo">
-                                                <rect key="frame" x="86.666666666666686" y="23" width="240" height="128"/>
+                                                <rect key="frame" x="87" y="23" width="240" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="Kyp-lx-VlV"/>
                                                     <constraint firstAttribute="width" constant="240" id="uC0-Kk-jxC"/>
@@ -102,22 +102,31 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg">
                                                 <rect key="frame" x="110" y="188" width="278" height="59"/>
-                                                <state key="normal" title="Are You Good Bro?"/>
+                                                <state key="normal" title="Intro to vlog"/>
                                                 <connections>
-                                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8zr-b6-6zI"/>
+                                                    <action selector="introsongPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uoH-Af-L9J"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-3r-fKS">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-3r-fKS">
                                                 <rect key="frame" x="25" y="271" width="278" height="59"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Are you good bro?"/>
+                                                <connections>
+                                                    <action selector="playrUgoodBroPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1pu-eQ-9r8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpO-5W-crU">
                                                 <rect key="frame" x="111" y="356" width="278" height="59"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="What's popping?"/>
+                                                <connections>
+                                                    <action selector="whatspoppingPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVT-H3-8Ao"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR">
                                                 <rect key="frame" x="25" y="441" width="278" height="59"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Are you good bro survey"/>
+                                                <connections>
+                                                    <action selector="goodBroSurveyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9S-0w-UNw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH">
                                                 <rect key="frame" x="111" y="525" width="278" height="59"/>
@@ -419,14 +428,14 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MavrickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="paA-9F-Th3" userLabel="upMavrickLogo">
-                                <rect key="frame" x="184.66666666666666" y="16" width="45" height="50"/>
+                                <rect key="frame" x="185" y="16" width="45" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Mpo-N9-ceH"/>
                                     <constraint firstAttribute="width" constant="45" id="TFJ-YQ-RYS"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Logan Paul " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phf-QJ-GSE">
-                                <rect key="frame" x="49" y="23.999999999999996" width="93" height="20.666666666666661"/>
+                                <rect key="frame" x="49" y="24" width="93" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.396078431372549" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -435,7 +444,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SoundBoard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-jk-Vcw">
-                                <rect key="frame" x="284" y="23.999999999999996" width="95" height="20.666666666666661"/>
+                                <rect key="frame" x="284" y="24" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0012343349661615697" green="0.43470470040808196" blue="0.0019151830867349244" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
