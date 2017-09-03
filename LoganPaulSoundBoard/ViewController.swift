@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     var whatspopping: AVAudioPlayer!
     var goodBroSurvey: AVAudioPlayer!
     var introsong: AVAudioPlayer!
+//    var kongSavageDoggy: AVAudioPlayer!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -17,7 +17,7 @@
 		BFE86CD41F4FA96000121C08 /* goodBroSurvey.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD31F4FA96000121C08 /* goodBroSurvey.wav */; };
 		BFE86CD61F4FA96900121C08 /* introsong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD51F4FA96900121C08 /* introsong.wav */; };
 		BFE86CD81F4FA97100121C08 /* hi_Mark.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD71F4FA97100121C08 /* hi_Mark.wav */; };
-		BFE86CDA1F4FA98000121C08 /* savage_doggy.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD91F4FA98000121C08 /* savage_doggy.wav */; };
+		BFE86CDA1F4FA98000121C08 /* kongSavageDoggy.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */; };
 		BFE86CDC1F4FA98A00121C08 /* whatsInTheBox.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */; };
 		BFF402D81F4B6210005949FD /* settingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF402D71F4B6210005949FD /* settingVC.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +35,7 @@
 		BFE86CD31F4FA96000121C08 /* goodBroSurvey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = goodBroSurvey.wav; sourceTree = "<group>"; };
 		BFE86CD51F4FA96900121C08 /* introsong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = introsong.wav; sourceTree = "<group>"; };
 		BFE86CD71F4FA97100121C08 /* hi_Mark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hi_Mark.wav; sourceTree = "<group>"; };
-		BFE86CD91F4FA98000121C08 /* savage_doggy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = savage_doggy.wav; sourceTree = "<group>"; };
+		BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kongSavageDoggy.wav; sourceTree = "<group>"; };
 		BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatsInTheBox.wav; sourceTree = "<group>"; };
 		BFF402D71F4B6210005949FD /* settingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +88,7 @@
 				BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */,
 				BFE86CCF1F4F9F6700121C08 /* rUgoodBro.wav */,
 				BFE86CD51F4FA96900121C08 /* introsong.wav */,
-				BFE86CD91F4FA98000121C08 /* savage_doggy.wav */,
+				BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */,
 				BFE86CD71F4FA97100121C08 /* hi_Mark.wav */,
 				BFE86CD31F4FA96000121C08 /* goodBroSurvey.wav */,
 				BFE86CD11F4FA92F00121C08 /* whatspapping.wav */,
@@ -156,7 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE86CDA1F4FA98000121C08 /* savage_doggy.wav in Resources */,
+				BFE86CDA1F4FA98000121C08 /* kongSavageDoggy.wav in Resources */,
 				BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */,
 				BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */,
 				BFE86CD81F4FA97100121C08 /* hi_Mark.wav in Resources */,
