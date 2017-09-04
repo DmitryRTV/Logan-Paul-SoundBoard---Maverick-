@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var whatspopping: AVAudioPlayer!
     var goodBroSurvey: AVAudioPlayer!
     var introsong: AVAudioPlayer!
-//    var kongSavageDoggy: AVAudioPlayer!
+    var kongSavageDoggy: AVAudioPlayer!
     
     
     override func viewDidLoad() {
@@ -66,6 +66,16 @@ class ViewController: UIViewController {
             print(err.debugDescription)
         }
         
+        
+        let pathFive = Bundle.main.path(forResource: "kongSavageDoggy", ofType: "wav")
+        let soundURLFive = URL(fileURLWithPath: pathFive!)
+        do {
+            try kongSavageDoggy = AVAudioPlayer(contentsOf: soundURLFive)
+            kongSavageDoggy.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+        
     }
     
     
@@ -83,6 +93,17 @@ class ViewController: UIViewController {
     
     @IBAction func goodBroSurveyPressed(sender: UIButton){
         playgoodBroSurvey()
+    }
+    
+    @IBAction func kongSavageDoggyPressed(sender: UIButton){
+        playkongSavageDoggy()
+    }
+    
+    func playkongSavageDoggy(){
+        if kongSavageDoggy.isPlaying{
+            kongSavageDoggy.stop()
+        }
+        kongSavageDoggy.play()
     }
     
     func playintrosong(){

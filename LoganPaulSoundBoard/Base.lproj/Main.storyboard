@@ -130,7 +130,10 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH">
                                                 <rect key="frame" x="111" y="525" width="278" height="59"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Kong savage doggy"/>
+                                                <connections>
+                                                    <action selector="kongSavageDoggyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9F-FX-lCs"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-lr-xOT">
                                                 <rect key="frame" x="25" y="610" width="278" height="59"/>
