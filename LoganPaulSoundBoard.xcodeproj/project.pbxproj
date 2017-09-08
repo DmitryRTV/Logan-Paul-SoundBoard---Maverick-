@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
 		BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */; };
 		BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C40D1F48B9E300BF4ED7 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF89017E1F6278F60020E9DC /* Fvriosa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fvriosa.ttf; sourceTree = "<group>"; };
 		BFA4C4061F48B9E200BF4ED7 /* LoganPaulSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoganPaulSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF8901801F6279090020E9DC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BF89017E1F6278F60020E9DC /* Fvriosa.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
 		BFA4C3FD1F48B9E200BF4ED7 = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +81,14 @@
 			isa = PBXGroup;
 			children = (
 				BFC42FF71F5B75B400A5DEBF /* Sounds */,
-				BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */,
+				BF8901801F6279090020E9DC /* fonts */,
 				BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */,
+				BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */,
+				BFF402D71F4B6210005949FD /* settingVC.swift */,
 				BFA4C40D1F48B9E300BF4ED7 /* Main.storyboard */,
 				BFA4C4101F48B9E300BF4ED7 /* Assets.xcassets */,
 				BFA4C4121F48B9E300BF4ED7 /* LaunchScreen.storyboard */,
 				BFA4C4151F48B9E300BF4ED7 /* Info.plist */,
-				BFF402D71F4B6210005949FD /* settingVC.swift */,
 			);
 			path = LoganPaulSoundBoard;
 			sourceTree = "<group>";
@@ -164,6 +175,7 @@
 				BFE86CD61F4FA96900121C08 /* introsong.wav in Resources */,
 				BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */,
 				BFE86CDC1F4FA98A00121C08 /* whatsInTheBox.wav in Resources */,
+				BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */,
 				BFE86CD21F4FA92F00121C08 /* whatspapping.wav in Resources */,
 				BFE86CD01F4F9F6700121C08 /* rUgoodBro.wav in Resources */,
 			);

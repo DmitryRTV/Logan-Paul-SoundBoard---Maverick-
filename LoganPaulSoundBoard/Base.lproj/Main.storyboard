@@ -9,6 +9,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Fvriosa.ttf">
+            <string>Fvriosa</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -102,35 +107,50 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg">
                                                 <rect key="frame" x="110" y="188" width="278" height="59"/>
-                                                <state key="normal" title="Intro to vlog"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="16"/>
+                                                <state key="normal" title="Intro to vlog">
+                                                    <color key="titleColor" red="0.21676985853312106" green="0.29020079794696096" blue="0.79445590101522845" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="introsongPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uoH-Af-L9J"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-3r-fKS">
                                                 <rect key="frame" x="25" y="271" width="278" height="59"/>
-                                                <state key="normal" title="Are you good bro?"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
+                                                <state key="normal" title="Are you good bro?">
+                                                    <color key="titleColor" red="0.86924968274111669" green="0.39197323813769946" blue="0.27673812480358861" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="playrUgoodBroPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1pu-eQ-9r8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpO-5W-crU">
                                                 <rect key="frame" x="111" y="356" width="278" height="59"/>
-                                                <state key="normal" title="What's popping?"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
+                                                <state key="normal" title="Whats popping?">
+                                                    <color key="titleColor" red="0.86684031557137997" green="0.86924968274111669" blue="0.080047480060352866" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="whatspoppingPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVT-H3-8Ao"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR">
                                                 <rect key="frame" x="25" y="441" width="278" height="59"/>
-                                                <state key="normal" title="Are you good bro survey"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
+                                                <state key="normal" title="Are you good bro survey">
+                                                    <color key="titleColor" red="0.070851586457952379" green="0.76748889593908631" blue="0.64860890234118529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="goodBroSurveyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9S-0w-UNw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH">
                                                 <rect key="frame" x="111" y="525" width="278" height="59"/>
-                                                <state key="normal" title="Kong savage doggy"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="16"/>
+                                                <state key="normal" title="Kong savage doggy">
+                                                    <color key="titleColor" red="0.10882287017484081" green="0.53543385152284262" blue="0.063711724056659549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="kongSavageDoggyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9F-FX-lCs"/>
                                                 </connections>
@@ -438,17 +458,17 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Logan Paul " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phf-QJ-GSE">
-                                <rect key="frame" x="49" y="24" width="93" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.396078431372549" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <rect key="frame" x="49" y="24" width="126" height="14"/>
+                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
+                                <color key="textColor" red="0.069717057640334257" green="0.54140228426395942" blue="0.1740280333381532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SoundBoard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-jk-Vcw">
-                                <rect key="frame" x="284" y="24" width="95" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="262.33333333333326" y="24" width="116.66666666666669" height="14"/>
+                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
                                 <color key="textColor" red="0.0012343349661615697" green="0.43470470040808196" blue="0.0019151830867349244" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular">
