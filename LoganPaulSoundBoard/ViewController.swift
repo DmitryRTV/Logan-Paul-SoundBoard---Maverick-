@@ -12,15 +12,24 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+       
     var rUgoodBro: AVAudioPlayer!
     var whatspopping: AVAudioPlayer!
     var goodBroSurvey: AVAudioPlayer!
     var introsong: AVAudioPlayer!
     var kongSavageDoggy: AVAudioPlayer!
+    var whatsInTheBox: AVAudioPlayer!
+    
+  
     
     
+         
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+      
+        
+        
         
         let path = Bundle.main.path(forResource: "rUgoodBro", ofType: "wav")
         let soundURL = URL(fileURLWithPath: path!)
@@ -76,7 +85,20 @@ class ViewController: UIViewController {
             print(err.debugDescription)
         }
         
+        
+        
+        
+        let pathseven = Bundle.main.path(forResource: "whatsInTheBox", ofType: "wav")
+        let soundURLSeven = URL(fileURLWithPath: pathseven!)
+        do {
+            try whatsInTheBox = AVAudioPlayer(contentsOf: soundURLSeven)
+            whatsInTheBox.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+        
     }
+    
     
     
     @IBAction func introsongPressed(sender: UIButton){
@@ -99,6 +121,9 @@ class ViewController: UIViewController {
         playkongSavageDoggy()
     }
     
+    @IBAction func whatsInTheBoxPressed(sender: UIButton){
+       playwhatsInTheBox()
+    }
     func playkongSavageDoggy(){
         if kongSavageDoggy.isPlaying{
             kongSavageDoggy.stop()
@@ -131,6 +156,11 @@ class ViewController: UIViewController {
         }
         rUgoodBro.play()
     }
-    
+       func playwhatsInTheBox(){
+        if whatsInTheBox.isPlaying{
+            whatsInTheBox.stop()
+        }
+        whatsInTheBox.play()
+    }
 }
 

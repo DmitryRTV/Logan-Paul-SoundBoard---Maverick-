@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -39,10 +38,10 @@
                                                     <constraint firstAttribute="height" constant="1500" id="JfK-O5-Cl1"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="2ao-dB-CLU" userLabel="headFace">
+                                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ao-dB-CLU" userLabel="fail">
                                                 <rect key="frame" x="25" y="4" width="363" height="167"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MavrickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="juX-k0-Cgd" userLabel="headMavrickLogo">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="juX-k0-Cgd" userLabel="headMavrickLogo">
                                                 <rect key="frame" x="87" y="23" width="240" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="Kyp-lx-VlV"/>
@@ -101,15 +100,12 @@
                                                     <constraint firstAttribute="width" constant="41" id="Tws-DB-jp7"/>
                                                 </constraints>
                                                 <state key="normal" image="settings_btn"/>
-                                                <connections>
-                                                    <segue destination="pP1-oE-QHP" kind="show" id="iex-o4-WE5"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg">
                                                 <rect key="frame" x="110" y="188" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="16"/>
                                                 <state key="normal" title="Intro to vlog">
-                                                    <color key="titleColor" red="0.21676985853312106" green="0.29020079794696096" blue="0.79445590101522845" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="0.21568627450980393" green="0.29019607843137252" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="introsongPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uoH-Af-L9J"/>
@@ -119,7 +115,7 @@
                                                 <rect key="frame" x="25" y="271" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <state key="normal" title="Are you good bro?">
-                                                    <color key="titleColor" red="0.86924968274111669" green="0.39197323813769946" blue="0.27673812480358861" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="0.87058823529411766" green="0.39215686274509803" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="playrUgoodBroPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1pu-eQ-9r8"/>
@@ -157,11 +153,20 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-lr-xOT">
                                                 <rect key="frame" x="25" y="610" width="278" height="59"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
+                                                <state key="normal" title="Hi Mark">
+                                                    <color key="titleColor" red="0.22685213395549192" green="0.28620486070561246" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlI-yu-LWh">
                                                 <rect key="frame" x="111" y="693" width="278" height="59"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
+                                                <state key="normal" title="whats In The Box?">
+                                                    <color key="titleColor" red="0.87058823529411766" green="0.39837510349911781" blue="0.286156037463276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="whatsInTheBoxPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-Dx-WaY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-m5-Sbs">
                                                 <rect key="frame" x="25" y="777" width="278" height="59"/>
@@ -354,229 +359,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="126.08695652173914" y="131.25"/>
-        </scene>
-        <!--SettingVC-->
-        <scene sceneID="Iit-nI-3pe">
-            <objects>
-                <viewController id="pP1-oE-QHP" customClass="settingVC" customModule="LoganPaulSoundBoard" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="V1Q-Aq-x7V"/>
-                        <viewControllerLayoutGuide type="bottom" id="eqQ-Sj-sSt"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ebv-oQ-1OK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="gpS-MI-wCV">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rK-ed-mjw">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="u2Y-Vr-ahm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.1803921568627451" green="0.45098039215686275" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaW-x3-qZP" userLabel="goBackBtn">
-                                <rect key="frame" x="0.0" y="0.0" width="66" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="iJv-c2-3GS"/>
-                                    <constraint firstAttribute="width" constant="66" id="yin-TZ-JpM"/>
-                                </constraints>
-                                <state key="normal" image="back_btn"/>
-                                <connections>
-                                    <action selector="backBnPressed:" destination="pP1-oE-QHP" eventType="touchUpInside" id="eiw-Kb-zV4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTw-Do-o0D">
-                                <rect key="frame" x="0.0" y="673" width="414" height="63"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="eTH-9F-E6O"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                <state key="normal" title="            Like The App?">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="29"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsQ-yF-UcZ">
-                                <rect key="frame" x="0.0" y="112" width="414" height="50"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="dyZ-KT-qIM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Change The Backgraund">
-                                    <color key="titleColor" red="0.0" green="0.396078431372549" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAu-gk-4GN">
-                                <rect key="frame" x="0.0" y="170" width="414" height="50"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="52C-uV-fUP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Change The Logo">
-                                    <color key="titleColor" red="0.0" green="0.39607843139999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                </variation>
-                                <connections>
-                                    <action selector="changeLogoBtnPressed:" destination="pP1-oE-QHP" eventType="touchUpInside" id="PDg-wn-Xlr"/>
-                                </connections>
-                            </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="daK-ky-jtF" userLabel="downface">
-                                <rect key="frame" x="44" y="267" width="326" height="384"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MavrickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ytI-EY-GEe" userLabel="downMavrickLogo">
-                                <rect key="frame" x="93" y="320" width="228" height="278"/>
-                            </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="hE8-dh-hg2" userLabel="upFace">
-                                <rect key="frame" x="182" y="15" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="E78-RK-5wa"/>
-                                    <constraint firstAttribute="height" constant="50" id="X8q-3W-l2g"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MavrickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="paA-9F-Th3" userLabel="upMavrickLogo">
-                                <rect key="frame" x="185" y="16" width="45" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Mpo-N9-ceH"/>
-                                    <constraint firstAttribute="width" constant="45" id="TFJ-YQ-RYS"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Logan Paul " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phf-QJ-GSE">
-                                <rect key="frame" x="49" y="24" width="126" height="14"/>
-                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
-                                <color key="textColor" red="0.069717057640334257" green="0.54140228426395942" blue="0.1740280333381532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SoundBoard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-jk-Vcw">
-                                <rect key="frame" x="262.33333333333326" y="24" width="116.66666666666669" height="14"/>
-                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
-                                <color key="textColor" red="0.0012343349661615697" green="0.43470470040808196" blue="0.0019151830867349244" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                </variation>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heartitemenabled" translatesAutoresizingMaskIntoConstraints="NO" id="FYc-39-aaP">
-                                <rect key="frame" x="105" y="691" width="29" height="27"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="29" id="MGf-G6-KRA"/>
-                                    <constraint firstAttribute="height" constant="27" id="zEc-o4-FAS"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="KaW-x3-qZP" firstAttribute="top" secondItem="ebv-oQ-1OK" secondAttribute="top" id="0Qe-6e-spv"/>
-                            <constraint firstItem="eqQ-Sj-sSt" firstAttribute="top" secondItem="gpS-MI-wCV" secondAttribute="bottom" id="1zE-Bz-aKM"/>
-                            <constraint firstAttribute="trailing" secondItem="MAu-gk-4GN" secondAttribute="trailing" id="3b8-Zm-OS5"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="daK-ky-jtF" secondAttribute="trailing" constant="24" id="5RI-y5-WUr">
-                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
-                            </constraint>
-                            <constraint firstAttribute="trailing" secondItem="2rK-ed-mjw" secondAttribute="trailing" id="7W0-yu-nj3"/>
-                            <constraint firstItem="ReS-jk-Vcw" firstAttribute="top" secondItem="V1Q-Aq-x7V" secondAttribute="bottom" constant="4" id="B5A-Qf-nl1">
-                                <variation key="heightClass=regular-widthClass=regular" constant="-4"/>
-                            </constraint>
-                            <constraint firstItem="gpS-MI-wCV" firstAttribute="top" secondItem="ebv-oQ-1OK" secondAttribute="top" id="Cjy-NZ-a4C"/>
-                            <constraint firstItem="hE8-dh-hg2" firstAttribute="top" secondItem="ebv-oQ-1OK" secondAttribute="topMargin" constant="15" id="FlS-sT-2Zd"/>
-                            <constraint firstItem="daK-ky-jtF" firstAttribute="top" secondItem="MAu-gk-4GN" secondAttribute="bottom" constant="47" id="Iln-ss-BAy">
-                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
-                            </constraint>
-                            <constraint firstItem="Phf-QJ-GSE" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leadingMargin" constant="29" id="LH4-C8-bqD">
-                                <variation key="widthClass=regular" constant="125"/>
-                            </constraint>
-                            <constraint firstItem="paA-9F-Th3" firstAttribute="centerX" secondItem="ebv-oQ-1OK" secondAttribute="centerX" id="Lxs-vz-GTB"/>
-                            <constraint firstItem="MAu-gk-4GN" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leading" id="Nge-2R-gWS"/>
-                            <constraint firstItem="lTw-Do-o0D" firstAttribute="top" secondItem="daK-ky-jtF" secondAttribute="bottom" constant="22" id="ODo-LI-VbN">
-                                <variation key="heightClass=regular-widthClass=regular" constant="350"/>
-                            </constraint>
-                            <constraint firstItem="ytI-EY-GEe" firstAttribute="top" secondItem="MAu-gk-4GN" secondAttribute="bottom" constant="100" id="Oh0-vN-Zzr">
-                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
-                            </constraint>
-                            <constraint firstItem="paA-9F-Th3" firstAttribute="top" secondItem="ebv-oQ-1OK" secondAttribute="topMargin" constant="16" id="Q0j-DA-6Au"/>
-                            <constraint firstItem="lTw-Do-o0D" firstAttribute="top" secondItem="ytI-EY-GEe" secondAttribute="bottom" constant="75" id="VIb-XZ-nx7">
-                                <variation key="heightClass=regular-widthClass=regular" constant="450"/>
-                            </constraint>
-                            <constraint firstItem="Phf-QJ-GSE" firstAttribute="top" secondItem="V1Q-Aq-x7V" secondAttribute="bottom" constant="4" id="WHt-jp-ves">
-                                <variation key="heightClass=regular-widthClass=regular" constant="-4"/>
-                            </constraint>
-                            <constraint firstItem="lTw-Do-o0D" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leading" id="WzE-eo-scZ"/>
-                            <constraint firstItem="eqQ-Sj-sSt" firstAttribute="top" secondItem="FYc-39-aaP" secondAttribute="bottom" constant="18" id="YHg-u8-WTF"/>
-                            <constraint firstItem="ytI-EY-GEe" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leadingMargin" constant="73" id="aEa-P0-7gi">
-                                <variation key="heightClass=regular-widthClass=regular" constant="300"/>
-                            </constraint>
-                            <constraint firstItem="hsQ-yF-UcZ" firstAttribute="top" secondItem="KaW-x3-qZP" secondAttribute="bottom" constant="42" id="awW-dd-Pnt"/>
-                            <constraint firstItem="gpS-MI-wCV" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leading" id="d3j-cj-ukt"/>
-                            <constraint firstAttribute="trailing" secondItem="hsQ-yF-UcZ" secondAttribute="trailing" id="dLO-08-bcL"/>
-                            <constraint firstItem="eqQ-Sj-sSt" firstAttribute="top" secondItem="lTw-Do-o0D" secondAttribute="bottom" id="eYp-5n-pN6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ReS-jk-Vcw" secondAttribute="trailing" constant="15" id="ebB-9B-jvL">
-                                <variation key="widthClass=regular" constant="125"/>
-                            </constraint>
-                            <constraint firstItem="KaW-x3-qZP" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leading" id="efG-Cl-AEg"/>
-                            <constraint firstItem="gpS-MI-wCV" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leading" id="gh2-YN-fsg"/>
-                            <constraint firstItem="daK-ky-jtF" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leadingMargin" constant="24" id="h4O-3v-NLI">
-                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
-                            </constraint>
-                            <constraint firstAttribute="trailing" secondItem="lTw-Do-o0D" secondAttribute="trailing" id="iKv-9W-lz6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ytI-EY-GEe" secondAttribute="trailing" constant="73" id="l43-mJ-uPv">
-                                <variation key="heightClass=regular-widthClass=regular" constant="300"/>
-                            </constraint>
-                            <constraint firstItem="2rK-ed-mjw" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leading" id="lUi-lU-mV8"/>
-                            <constraint firstAttribute="trailing" secondItem="gpS-MI-wCV" secondAttribute="trailing" id="pvV-Fu-EMF"/>
-                            <constraint firstAttribute="trailing" secondItem="gpS-MI-wCV" secondAttribute="trailing" id="rUi-m9-C5v"/>
-                            <constraint firstItem="2rK-ed-mjw" firstAttribute="top" secondItem="ebv-oQ-1OK" secondAttribute="top" id="roP-l8-iAD"/>
-                            <constraint firstItem="MAu-gk-4GN" firstAttribute="top" secondItem="hsQ-yF-UcZ" secondAttribute="bottom" constant="8" id="roq-4g-FXG"/>
-                            <constraint firstItem="hE8-dh-hg2" firstAttribute="centerX" secondItem="ebv-oQ-1OK" secondAttribute="centerX" id="s9x-hi-MAi"/>
-                            <constraint firstItem="gpS-MI-wCV" firstAttribute="top" secondItem="ebv-oQ-1OK" secondAttribute="top" id="tDL-QD-sOy"/>
-                            <constraint firstItem="eqQ-Sj-sSt" firstAttribute="top" secondItem="gpS-MI-wCV" secondAttribute="bottom" id="ufb-mm-B2A"/>
-                            <constraint firstItem="FYc-39-aaP" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leadingMargin" constant="85" id="weU-Cj-d7j">
-                                <variation key="widthClass=regular" constant="280"/>
-                            </constraint>
-                            <constraint firstItem="hsQ-yF-UcZ" firstAttribute="leading" secondItem="ebv-oQ-1OK" secondAttribute="leading" id="zkN-Ft-4nr"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="changeBgBtn" destination="hsQ-yF-UcZ" id="3AY-Qm-5mE"/>
-                        <outlet property="changeLogoBtn" destination="MAu-gk-4GN" id="pL9-h8-hDf"/>
-                        <outlet property="downFace" destination="daK-ky-jtF" id="AaE-7b-xKG"/>
-                        <outlet property="downMlogo" destination="ytI-EY-GEe" id="d3Q-i6-chD"/>
-                        <outlet property="likeBtn" destination="lTw-Do-o0D" id="tuv-L8-64K"/>
-                        <outlet property="settingBn" destination="KaW-x3-qZP" id="9v1-tV-BNF"/>
-                        <outlet property="upFace" destination="hE8-dh-hg2" id="2cS-xC-0pz"/>
-                        <outlet property="upMlogo" destination="paA-9F-Th3" id="Dq8-rI-Mb6"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XjI-yQ-YQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="887" y="132"/>
+            <point key="canvasLocation" x="820" y="87"/>
         </scene>
     </scenes>
     <resources>
         <image name="Bg" width="300" height="168"/>
-        <image name="MavrickLogo" width="240" height="280"/>
-        <image name="back_btn" width="13" height="21"/>
         <image name="blueBar" width="1667" height="1667"/>
-        <image name="face" width="900" height="900"/>
         <image name="greenBar" width="1667" height="1667"/>
-        <image name="heartitemenabled" width="30" height="30"/>
         <image name="lightgreenBra" width="1667" height="1667"/>
         <image name="redBar" width="1667" height="1667"/>
         <image name="settings_btn" width="30" height="30"/>
