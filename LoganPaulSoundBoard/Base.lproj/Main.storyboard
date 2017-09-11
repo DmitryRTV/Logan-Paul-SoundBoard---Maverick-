@@ -100,6 +100,9 @@
                                                     <constraint firstAttribute="width" constant="41" id="Tws-DB-jp7"/>
                                                 </constraints>
                                                 <state key="normal" image="settings_btn"/>
+                                                <connections>
+                                                    <action selector="showPopUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VFp-5m-ROQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg">
                                                 <rect key="frame" x="110" y="188" width="278" height="59"/>
@@ -203,6 +206,38 @@
                                                 <rect key="frame" x="111" y="1366" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
+                                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5P-ER-IbC" userLabel="bGbn">
+                                                <rect key="frame" x="4" y="0.0" width="406" height="737"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="closePopUo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHh-Us-YnO"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Itk-Zx-9XM">
+                                                <rect key="frame" x="-653" y="25.666666666666657" width="320" height="449"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBA-gk-7gY">
+                                                        <rect key="frame" x="0.0" y="386" width="320" height="63"/>
+                                                        <color key="backgroundColor" red="0.74522807991595719" green="0.79704694175095459" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="63" id="txQ-Jx-qGy"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Done!"/>
+                                                        <connections>
+                                                            <action selector="closePopUo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qln-eK-Ke0"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.73824581938632372" green="0.97100774744383778" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="zBA-gk-7gY" secondAttribute="bottom" id="Vtm-1V-gLm"/>
+                                                    <constraint firstItem="zBA-gk-7gY" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" id="duo-dM-cGc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="zBA-gk-7gY" secondAttribute="trailing" id="hUx-Kl-dW7"/>
+                                                    <constraint firstAttribute="height" constant="449" id="qHm-Ae-OH9"/>
+                                                    <constraint firstAttribute="width" constant="320" id="tGh-NJ-T6u"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -226,6 +261,7 @@
                                             <constraint firstItem="MfN-lr-xOT" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="6gK-tI-SIP"/>
                                             <constraint firstAttribute="trailing" secondItem="33s-If-InC" secondAttribute="trailing" id="774-gy-snP"/>
                                             <constraint firstAttribute="trailing" secondItem="8IV-Ce-xC9" secondAttribute="trailing" id="8KV-5W-Y6C"/>
+                                            <constraint firstItem="Itk-Zx-9XM" firstAttribute="centerY" secondItem="RVG-a6-iTZ" secondAttribute="centerY" constant="-500" id="8Mu-jC-Wbl"/>
                                             <constraint firstItem="Ziv-55-wEz" firstAttribute="top" secondItem="lgf-fb-BgC" secondAttribute="bottom" constant="27" id="8kq-mQ-UmD"/>
                                             <constraint firstItem="wFM-nK-8Ok" firstAttribute="top" secondItem="laN-pp-xh6" secondAttribute="bottom" constant="25" id="9cj-p0-JdD"/>
                                             <constraint firstItem="Yru-w6-zKA" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" id="9iQ-QH-bpY"/>
@@ -258,6 +294,7 @@
                                             <constraint firstItem="um7-m5-Sbs" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="K9c-xs-S6M"/>
                                             <constraint firstItem="iij-DP-QEH" firstAttribute="top" secondItem="AUK-Iy-NqR" secondAttribute="bottom" constant="25" id="Klh-rs-R2I"/>
                                             <constraint firstAttribute="trailing" secondItem="4zk-VK-hFd" secondAttribute="trailing" constant="86" id="KuX-K9-qfM"/>
+                                            <constraint firstItem="Itk-Zx-9XM" firstAttribute="centerX" secondItem="RVG-a6-iTZ" secondAttribute="centerX" constant="-700" id="Lq0-Qg-pg9"/>
                                             <constraint firstItem="8IV-Ce-xC9" firstAttribute="top" secondItem="RVG-a6-iTZ" secondAttribute="top" id="Lwt-pk-gAw"/>
                                             <constraint firstItem="zdY-3r-fKS" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="MVl-Zf-aAz"/>
                                             <constraint firstItem="PMp-ju-Wdd" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="NWb-iX-ogK"/>
@@ -359,10 +396,15 @@
                             <constraint firstItem="WpV-N1-nv5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sTv-Ys-PQK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backGroundBtn" destination="f5P-ER-IbC" id="DGP-2i-D31"/>
+                        <outlet property="centerPopUpConstraint" destination="Lq0-Qg-pg9" id="anC-bg-Bqg"/>
+                        <outlet property="popUpView" destination="Itk-Zx-9XM" id="k2y-EK-GAI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="820" y="87"/>
+            <point key="canvasLocation" x="811.875" y="82.5"/>
         </scene>
     </scenes>
     <resources>

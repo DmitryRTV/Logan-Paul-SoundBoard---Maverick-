@@ -12,7 +12,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-       
+    @IBOutlet weak var backGroundBtn: UIButton!
+    @IBOutlet weak var centerPopUpConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var popUpView: UIView!
+    
     var rUgoodBro: AVAudioPlayer!
     var whatspopping: AVAudioPlayer!
     var goodBroSurvey: AVAudioPlayer!
@@ -25,6 +29,10 @@ class ViewController: UIViewController {
          
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        popUpView.layer.cornerRadius = 15
+        popUpView.layer.masksToBounds = true
         
       
         
@@ -106,6 +114,24 @@ class ViewController: UIViewController {
         
     }
     
+   
+    @IBAction func showPopUp(_ sender: Any) {
+        centerPopUpConstraint.constant = 0
+        UIView.animate(withDuration: 0.3, animations: {
+            self.view.layoutIfNeeded()
+            self.backGroundBtn.alpha = 0.5        })
+    
+        
+    }
+    
+    @IBAction func closePopUo(_ sender: Any) {
+        centerPopUpConstraint.constant = -700
+        UIView.animate(withDuration: 0.1, animations: {
+            self.view.layoutIfNeeded()
+            self.backGroundBtn.alpha = 0        })
+    }
+    
+   
     
     
     @IBAction func introsongPressed(sender: UIButton){
