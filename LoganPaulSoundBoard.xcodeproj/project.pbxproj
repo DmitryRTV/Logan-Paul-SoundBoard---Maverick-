@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3B04191F6613CE00975DA5 /* hiMark.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3B04181F6613CE00975DA5 /* hiMark.wav */; };
 		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
 		BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF3B04181F6613CE00975DA5 /* hiMark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hiMark.wav; sourceTree = "<group>"; };
 		BF89017E1F6278F60020E9DC /* Fvriosa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fvriosa.ttf; sourceTree = "<group>"; };
 		BFA4C4061F48B9E200BF4ED7 /* LoganPaulSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoganPaulSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */,
 				BFE86CCF1F4F9F6700121C08 /* rUgoodBro.wav */,
+				BF3B04181F6613CE00975DA5 /* hiMark.wav */,
 				BFE86CD51F4FA96900121C08 /* introsong.wav */,
 				BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */,
 				BFE86CD31F4FA96000121C08 /* goodBroSurvey.wav */,
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE86CDA1F4FA98000121C08 /* kongSavageDoggy.wav in Resources */,
+				BF3B04191F6613CE00975DA5 /* hiMark.wav in Resources */,
 				BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */,
 				BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */,
 				BFE86CD41F4FA96000121C08 /* goodBroSurvey.wav in Resources */,

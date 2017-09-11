@@ -157,6 +157,9 @@
                                                 <state key="normal" title="Hi Mark">
                                                     <color key="titleColor" red="0.22685213395549192" green="0.28620486070561246" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="hiMarkPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i2Z-c5-N2d"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlI-yu-LWh">
                                                 <rect key="frame" x="111" y="693" width="278" height="59"/>

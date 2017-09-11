@@ -19,8 +19,7 @@ class ViewController: UIViewController {
     var introsong: AVAudioPlayer!
     var kongSavageDoggy: AVAudioPlayer!
     var whatsInTheBox: AVAudioPlayer!
-    
-  
+    var hiMark: AVAudioPlayer!
     
     
          
@@ -85,8 +84,14 @@ class ViewController: UIViewController {
             print(err.debugDescription)
         }
         
-        
-        
+        let pathsix = Bundle.main.path(forResource: "hiMark", ofType: "wav")
+        let soundURLsix = URL(fileURLWithPath: pathsix!)
+        do {
+            try hiMark = AVAudioPlayer(contentsOf: soundURLsix)
+            hiMark.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
         
         let pathseven = Bundle.main.path(forResource: "whatsInTheBox", ofType: "wav")
         let soundURLSeven = URL(fileURLWithPath: pathseven!)
@@ -96,6 +101,8 @@ class ViewController: UIViewController {
         } catch let err as NSError {
             print(err.debugDescription)
         }
+        
+        
         
     }
     
@@ -124,6 +131,18 @@ class ViewController: UIViewController {
     @IBAction func whatsInTheBoxPressed(sender: UIButton){
        playwhatsInTheBox()
     }
+    
+    @IBAction func hiMarkPressed(sender: UIButton){
+        playHiMark()
+    }
+    
+    func playHiMark(){
+        if hiMark.isPlaying{
+            hiMark.stop()
+        }
+        hiMark.play()
+    }
+    
     func playkongSavageDoggy(){
         if kongSavageDoggy.isPlaying{
             kongSavageDoggy.stop()
