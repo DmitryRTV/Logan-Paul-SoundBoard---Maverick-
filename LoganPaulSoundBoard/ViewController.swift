@@ -117,11 +117,15 @@ class ViewController: UIViewController {
    
     @IBAction func showPopUp(_ sender: Any) {
         centerPopUpConstraint.constant = 0
-        UIView.animate(withDuration: 0.3, animations: {
+        UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: .curveEaseInOut, animations:{
             self.view.layoutIfNeeded()
+            
+        }, completion: nil)
+    
+        UIView.animate(withDuration: 0.2, animations: {
+            
             self.backGroundBtn.alpha = 0.5        })
     
-        
     }
     
     @IBAction func closePopUo(_ sender: Any) {

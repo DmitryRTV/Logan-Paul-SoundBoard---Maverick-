@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,78 +23,78 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpV-N1-nv5">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RVG-a6-iTZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1500"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-Ce-xC9">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1500"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1500" id="JfK-O5-Cl1"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ao-dB-CLU" userLabel="fail">
-                                                <rect key="frame" x="25" y="4" width="363" height="167"/>
+                                                <rect key="frame" x="25" y="4" width="973" height="167"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="juX-k0-Cgd" userLabel="headMavrickLogo">
-                                                <rect key="frame" x="87" y="23" width="240" height="128"/>
+                                                <rect key="frame" x="392" y="23" width="240" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="Kyp-lx-VlV"/>
                                                     <constraint firstAttribute="width" constant="240" id="uC0-Kk-jxC"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="SOv-Mn-tve">
-                                                <rect key="frame" x="86" y="105" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="SOv-Mn-tve">
+                                                <rect key="frame" x="86" y="105" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="ukd-kz-6hh">
-                                                <rect key="frame" x="0.0" y="188" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="ukd-kz-6hh">
+                                                <rect key="frame" x="0.0" y="188" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="p0d-A3-qep">
-                                                <rect key="frame" x="86" y="273" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="p0d-A3-qep">
+                                                <rect key="frame" x="86" y="273" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="RFw-cd-q9v">
-                                                <rect key="frame" x="0.0" y="358" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="RFw-cd-q9v">
+                                                <rect key="frame" x="0.0" y="358" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="33s-If-InC">
-                                                <rect key="frame" x="86" y="442" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="33s-If-InC">
+                                                <rect key="frame" x="86" y="442" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="Yru-w6-zKA">
-                                                <rect key="frame" x="0.0" y="526" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="Yru-w6-zKA">
+                                                <rect key="frame" x="0.0" y="526" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="beW-Jc-dNo">
-                                                <rect key="frame" x="86" y="610" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="beW-Jc-dNo">
+                                                <rect key="frame" x="86" y="610" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="Vna-W7-l9B">
-                                                <rect key="frame" x="0.0" y="693" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="Vna-W7-l9B">
+                                                <rect key="frame" x="0.0" y="693" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="lgf-fb-BgC">
-                                                <rect key="frame" x="86" y="777" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="lgf-fb-BgC">
+                                                <rect key="frame" x="86" y="777" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="4zk-VK-hFd">
-                                                <rect key="frame" x="0.0" y="861" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="4zk-VK-hFd">
+                                                <rect key="frame" x="0.0" y="861" width="938" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="r4u-r4-iKP">
-                                                <rect key="frame" x="86" y="944" width="328" height="225"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="r4u-r4-iKP">
+                                                <rect key="frame" x="86" y="944" width="938" height="225"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="Ziv-55-wEz">
-                                                <rect key="frame" x="0.0" y="1028" width="328" height="225"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="Ziv-55-wEz">
+                                                <rect key="frame" x="0.0" y="1028" width="938" height="225"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="6uy-5D-JPC">
-                                                <rect key="frame" x="86" y="1112" width="328" height="225"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="6uy-5D-JPC">
+                                                <rect key="frame" x="86" y="1112" width="938" height="225"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="aGa-S6-L1W">
-                                                <rect key="frame" x="0.0" y="1196" width="328" height="227"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="aGa-S6-L1W">
+                                                <rect key="frame" x="0.0" y="1196" width="938" height="227"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="23L-RH-0PD">
-                                                <rect key="frame" x="86" y="1280" width="328" height="230"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="23L-RH-0PD">
+                                                <rect key="frame" x="86" y="1280" width="938" height="230"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ec7-zu-VjR" userLabel="settingBtn">
-                                                <rect key="frame" x="354" y="31" width="41" height="40"/>
+                                                <rect key="frame" x="964" y="31" width="41" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="5oE-60-akM"/>
                                                     <constraint firstAttribute="width" constant="41" id="Tws-DB-jp7"/>
@@ -105,7 +105,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg">
-                                                <rect key="frame" x="110" y="188" width="278" height="59"/>
+                                                <rect key="frame" x="110" y="188" width="888" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="16"/>
                                                 <state key="normal" title="Intro to vlog">
                                                     <color key="titleColor" red="0.21568627450980393" green="0.29019607843137252" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -115,17 +115,17 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-3r-fKS">
-                                                <rect key="frame" x="25" y="271" width="278" height="59"/>
+                                                <rect key="frame" x="25" y="271" width="888" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <state key="normal" title="Are you good bro?">
-                                                    <color key="titleColor" red="0.87058823529411766" green="0.39215686274509803" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="0.90755869289340096" green="0.38167834638600279" blue="0.33505642529365909" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="playrUgoodBroPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1pu-eQ-9r8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpO-5W-crU">
-                                                <rect key="frame" x="111" y="356" width="278" height="59"/>
+                                                <rect key="frame" x="111" y="356" width="888" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <state key="normal" title="Whats popping?">
                                                     <color key="titleColor" red="0.86684031557137997" green="0.86924968274111669" blue="0.080047480060352866" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -135,7 +135,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR">
-                                                <rect key="frame" x="25" y="441" width="278" height="59"/>
+                                                <rect key="frame" x="25" y="441" width="888" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
                                                 <state key="normal" title="Are you good bro survey">
                                                     <color key="titleColor" red="0.070851586457952379" green="0.76748889593908631" blue="0.64860890234118529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -145,7 +145,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH">
-                                                <rect key="frame" x="111" y="525" width="278" height="59"/>
+                                                <rect key="frame" x="111" y="525" width="888" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="16"/>
                                                 <state key="normal" title="Kong savage doggy">
                                                     <color key="titleColor" red="0.10882287017484081" green="0.53543385152284262" blue="0.063711724056659549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -155,7 +155,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-lr-xOT">
-                                                <rect key="frame" x="25" y="610" width="278" height="59"/>
+                                                <rect key="frame" x="25" y="610" width="888" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <state key="normal" title="Hi Mark">
                                                     <color key="titleColor" red="0.22685213395549192" green="0.28620486070561246" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -165,45 +165,47 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlI-yu-LWh">
-                                                <rect key="frame" x="111" y="693" width="278" height="59"/>
+                                                <rect key="frame" x="111" y="693" width="888" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <state key="normal" title="whats In The Box?">
-                                                    <color key="titleColor" red="0.87058823529411766" green="0.39837510349911781" blue="0.286156037463276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="0.90755869289340096" green="0.38167834638600279" blue="0.33505642529365909" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="whatsInTheBoxPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-Dx-WaY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-m5-Sbs">
-                                                <rect key="frame" x="25" y="777" width="278" height="59"/>
+                                                <rect key="frame" x="25" y="777" width="888" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHi-nI-Mfr">
-                                                <rect key="frame" x="111" y="861" width="278" height="59"/>
+                                                <rect key="frame" x="111" y="861" width="888" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-Ws-vjM">
-                                                <rect key="frame" x="25" y="944" width="278" height="59"/>
+                                                <rect key="frame" x="25" y="944" width="888" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMV-WX-sxw">
-                                                <rect key="frame" x="111" y="1028" width="278" height="59"/>
+                                                <rect key="frame" x="111" y="1028" width="888" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laN-pp-xh6">
-                                                <rect key="frame" x="25" y="1112" width="278" height="59"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="25" y="1112" width="888" height="59"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" red="0.90755869289340096" green="0.38167834638600279" blue="0.33505642529365909" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFM-nK-8Ok">
-                                                <rect key="frame" x="110" y="1196" width="278" height="59"/>
+                                                <rect key="frame" x="110" y="1196" width="888" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMp-ju-Wdd">
-                                                <rect key="frame" x="25" y="1280" width="278" height="59"/>
+                                                <rect key="frame" x="25" y="1280" width="888" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-OL-QfA">
-                                                <rect key="frame" x="111" y="1366" width="278" height="59"/>
+                                                <rect key="frame" x="111" y="1366" width="888" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5P-ER-IbC" userLabel="bGbn">
@@ -215,7 +217,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Itk-Zx-9XM">
-                                                <rect key="frame" x="-653" y="25.666666666666657" width="320" height="449"/>
+                                                <rect key="frame" x="-348" y="25.5" width="320" height="449"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBA-gk-7gY">
                                                         <rect key="frame" x="0.0" y="386" width="320" height="63"/>
