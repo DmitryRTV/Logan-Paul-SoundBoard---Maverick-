@@ -14,9 +14,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var backGroundBtn: UIButton!
     @IBOutlet weak var centerPopUpConstraint: NSLayoutConstraint!
-    
     @IBOutlet weak var popUpView: UIView!
+    @IBOutlet weak var inPutImage: UIImageView!
     
+    @IBOutlet weak var faceImage: UIImageView!
     var rUgoodBro: AVAudioPlayer!
     var whatspopping: AVAudioPlayer!
     var goodBroSurvey: AVAudioPlayer!
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
     var whatsInTheBox: AVAudioPlayer!
     var hiMark: AVAudioPlayer!
     
-    
+    var sw = false
          
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -113,6 +114,12 @@ class ViewController: UIViewController {
         
         
     }
+    
+    
+    @IBAction func changeLogoBtn(_ sender: Any) {
+          }
+    
+    
     
    
     @IBAction func showPopUp(_ sender: Any) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,78 +23,79 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpV-N1-nv5">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RVG-a6-iTZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-Ce-xC9">
-                                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1500"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1500" id="JfK-O5-Cl1"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ao-dB-CLU" userLabel="fail">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="2ao-dB-CLU" userLabel="face">
                                                 <rect key="frame" x="25" y="4" width="973" height="167"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="juX-k0-Cgd" userLabel="headMavrickLogo">
-                                                <rect key="frame" x="392" y="23" width="240" height="128"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MavrickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="juX-k0-Cgd" userLabel="headMavrickLogo">
+                                                <rect key="frame" x="87" y="23" width="240" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="Kyp-lx-VlV"/>
                                                     <constraint firstAttribute="width" constant="240" id="uC0-Kk-jxC"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="SOv-Mn-tve">
-                                                <rect key="frame" x="86" y="105" width="938" height="224"/>
+                                                <rect key="frame" x="86" y="105" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="ukd-kz-6hh">
-                                                <rect key="frame" x="0.0" y="188" width="938" height="224"/>
+                                                <rect key="frame" x="0.0" y="188" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="p0d-A3-qep">
-                                                <rect key="frame" x="86" y="273" width="938" height="224"/>
+                                                <rect key="frame" x="86" y="273" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="RFw-cd-q9v">
-                                                <rect key="frame" x="0.0" y="358" width="938" height="224"/>
+                                                <rect key="frame" x="0.0" y="358" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="33s-If-InC">
-                                                <rect key="frame" x="86" y="442" width="938" height="224"/>
+                                                <rect key="frame" x="86" y="442" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="Yru-w6-zKA">
-                                                <rect key="frame" x="0.0" y="526" width="938" height="224"/>
+                                                <rect key="frame" x="0.0" y="526" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="beW-Jc-dNo">
-                                                <rect key="frame" x="86" y="610" width="938" height="224"/>
+                                                <rect key="frame" x="86" y="610" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="Vna-W7-l9B">
-                                                <rect key="frame" x="0.0" y="693" width="938" height="224"/>
+                                                <rect key="frame" x="0.0" y="693" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="lgf-fb-BgC">
-                                                <rect key="frame" x="86" y="777" width="938" height="224"/>
+                                                <rect key="frame" x="86" y="777" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="4zk-VK-hFd">
-                                                <rect key="frame" x="0.0" y="861" width="938" height="224"/>
+                                                <rect key="frame" x="0.0" y="861" width="328" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="r4u-r4-iKP">
-                                                <rect key="frame" x="86" y="944" width="938" height="225"/>
+                                                <rect key="frame" x="86" y="944" width="328" height="225"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="Ziv-55-wEz">
-                                                <rect key="frame" x="0.0" y="1028" width="938" height="225"/>
+                                                <rect key="frame" x="0.0" y="1028" width="328" height="225"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="6uy-5D-JPC">
-                                                <rect key="frame" x="86" y="1112" width="938" height="225"/>
+                                                <rect key="frame" x="86" y="1112" width="328" height="225"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="aGa-S6-L1W">
-                                                <rect key="frame" x="0.0" y="1196" width="938" height="227"/>
+                                                <rect key="frame" x="0.0" y="1196" width="328" height="227"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="23L-RH-0PD">
-                                                <rect key="frame" x="86" y="1280" width="938" height="230"/>
+                                                <rect key="frame" x="86" y="1280" width="328" height="230"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ec7-zu-VjR" userLabel="settingBtn">
-                                                <rect key="frame" x="964" y="31" width="41" height="40"/>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ec7-zu-VjR" userLabel="settingBtn">
+                                                <rect key="frame" x="354" y="31" width="41" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="5oE-60-akM"/>
                                                     <constraint firstAttribute="width" constant="41" id="Tws-DB-jp7"/>
@@ -104,8 +105,8 @@
                                                     <action selector="showPopUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VFp-5m-ROQ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg">
-                                                <rect key="frame" x="110" y="188" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg">
+                                                <rect key="frame" x="110" y="219" width="278" height="28"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="16"/>
                                                 <state key="normal" title="Intro to vlog">
                                                     <color key="titleColor" red="0.21568627450980393" green="0.29019607843137252" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -115,7 +116,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-3r-fKS">
-                                                <rect key="frame" x="25" y="271" width="888" height="59"/>
+                                                <rect key="frame" x="25" y="271" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <state key="normal" title="Are you good bro?">
                                                     <color key="titleColor" red="0.90755869289340096" green="0.38167834638600279" blue="0.33505642529365909" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -124,8 +125,8 @@
                                                     <action selector="playrUgoodBroPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1pu-eQ-9r8"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpO-5W-crU">
-                                                <rect key="frame" x="111" y="356" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpO-5W-crU">
+                                                <rect key="frame" x="111" y="356" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <state key="normal" title="Whats popping?">
                                                     <color key="titleColor" red="0.86684031557137997" green="0.86924968274111669" blue="0.080047480060352866" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -134,8 +135,8 @@
                                                     <action selector="whatspoppingPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVT-H3-8Ao"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR">
-                                                <rect key="frame" x="25" y="441" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR">
+                                                <rect key="frame" x="25" y="441" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
                                                 <state key="normal" title="Are you good bro survey">
                                                     <color key="titleColor" red="0.070851586457952379" green="0.76748889593908631" blue="0.64860890234118529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -144,8 +145,8 @@
                                                     <action selector="goodBroSurveyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9S-0w-UNw"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH">
-                                                <rect key="frame" x="111" y="525" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH">
+                                                <rect key="frame" x="111" y="525" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="16"/>
                                                 <state key="normal" title="Kong savage doggy">
                                                     <color key="titleColor" red="0.10882287017484081" green="0.53543385152284262" blue="0.063711724056659549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -154,8 +155,8 @@
                                                     <action selector="kongSavageDoggyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9F-FX-lCs"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-lr-xOT">
-                                                <rect key="frame" x="25" y="610" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-lr-xOT">
+                                                <rect key="frame" x="25" y="610" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <state key="normal" title="Hi Mark">
                                                     <color key="titleColor" red="0.22685213395549192" green="0.28620486070561246" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -164,8 +165,8 @@
                                                     <action selector="hiMarkPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i2Z-c5-N2d"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlI-yu-LWh">
-                                                <rect key="frame" x="111" y="693" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlI-yu-LWh">
+                                                <rect key="frame" x="111" y="693" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <state key="normal" title="whats In The Box?">
                                                     <color key="titleColor" red="0.90755869289340096" green="0.38167834638600279" blue="0.33505642529365909" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -174,42 +175,42 @@
                                                     <action selector="whatsInTheBoxPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-Dx-WaY"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-m5-Sbs">
-                                                <rect key="frame" x="25" y="777" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-m5-Sbs">
+                                                <rect key="frame" x="25" y="777" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHi-nI-Mfr">
-                                                <rect key="frame" x="111" y="861" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHi-nI-Mfr">
+                                                <rect key="frame" x="111" y="861" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-Ws-vjM">
-                                                <rect key="frame" x="25" y="944" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-Ws-vjM">
+                                                <rect key="frame" x="25" y="944" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMV-WX-sxw">
-                                                <rect key="frame" x="111" y="1028" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMV-WX-sxw">
+                                                <rect key="frame" x="111" y="1028" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laN-pp-xh6">
-                                                <rect key="frame" x="25" y="1112" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laN-pp-xh6">
+                                                <rect key="frame" x="25" y="1112" width="278" height="59"/>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" red="0.90755869289340096" green="0.38167834638600279" blue="0.33505642529365909" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFM-nK-8Ok">
-                                                <rect key="frame" x="110" y="1196" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFM-nK-8Ok">
+                                                <rect key="frame" x="110" y="1196" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMp-ju-Wdd">
-                                                <rect key="frame" x="25" y="1280" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMp-ju-Wdd">
+                                                <rect key="frame" x="25" y="1280" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-OL-QfA">
-                                                <rect key="frame" x="111" y="1366" width="888" height="59"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-OL-QfA">
+                                                <rect key="frame" x="111" y="1366" width="278" height="59"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5P-ER-IbC" userLabel="bGbn">
-                                                <rect key="frame" x="4" y="0.0" width="406" height="737"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="737"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
@@ -217,27 +218,100 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Itk-Zx-9XM">
-                                                <rect key="frame" x="-348" y="25.5" width="320" height="449"/>
+                                                <rect key="frame" x="-653" y="25.666666666666657" width="320" height="449"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBA-gk-7gY">
-                                                        <rect key="frame" x="0.0" y="386" width="320" height="63"/>
-                                                        <color key="backgroundColor" red="0.74522807991595719" green="0.79704694175095459" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="43A-eh-RA6">
+                                                        <rect key="frame" x="0.0" y="-0.66666666666665719" width="320" height="449"/>
+                                                    </imageView>
+                                                    <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBA-gk-7gY">
+                                                        <rect key="frame" x="0.0" y="385.33333333333331" width="320" height="63"/>
+                                                        <color key="backgroundColor" red="1" green="0.48392018273788251" blue="0.47075330278288341" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="63" id="txQ-Jx-qGy"/>
                                                         </constraints>
-                                                        <state key="normal" title="Done!"/>
+                                                        <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
+                                                        <state key="normal" title="Done">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="closePopUo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qln-eK-Ke0"/>
                                                         </connections>
                                                     </button>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="X9G-iF-cBM">
+                                                        <rect key="frame" x="-290" y="7" width="900" height="128"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="128" id="FXk-Xs-iBa"/>
+                                                            <constraint firstAttribute="width" constant="900" id="Lyu-tO-XUZ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pug-D4-D3T">
+                                                        <rect key="frame" x="63.333333333333371" y="334" width="192.99999999999994" height="43"/>
+                                                        <color key="backgroundColor" red="0.89885409294465057" green="0.89451180264057017" blue="0.90319638324873097" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="43" id="OB4-zy-6So"/>
+                                                            <constraint firstAttribute="width" constant="193" id="abE-DZ-Fqr"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="11"/>
+                                                        <state key="normal" title="   like the app?   ">
+                                                            <color key="titleColor" red="0.93519604206085205" green="0.50250548124313354" blue="0.49417409300804138" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWf-Rf-AFW">
+                                                        <rect key="frame" x="63" y="214" width="195" height="51"/>
+                                                        <color key="backgroundColor" red="0.93519604209999996" green="0.50250548120000005" blue="0.49417409299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="195" id="VUa-R1-byH"/>
+                                                            <constraint firstAttribute="height" constant="51" id="w34-5D-gg2"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="13"/>
+                                                        <state key="normal" title="Change background">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrn-QS-yyH">
+                                                        <rect key="frame" x="95" y="154" width="131" height="51"/>
+                                                        <color key="backgroundColor" red="0.93519604209999996" green="0.50250548120000005" blue="0.49417409299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="131" id="0mc-V1-81k"/>
+                                                            <constraint firstAttribute="height" constant="51" id="fOU-SC-yVJ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="13"/>
+                                                        <state key="normal" title="change logo">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="changeLogoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="byy-S0-bSJ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heartitemenabled" translatesAutoresizingMaskIntoConstraints="NO" id="0Oy-yZ-CIO">
+                                                        <rect key="frame" x="216" y="341" width="36" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="36" id="IMT-BE-38A"/>
+                                                            <constraint firstAttribute="height" constant="30" id="hqR-aL-zn8"/>
+                                                        </constraints>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.73824581938632372" green="0.97100774744383778" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
+                                                    <constraint firstItem="X9G-iF-cBM" firstAttribute="centerX" secondItem="Itk-Zx-9XM" secondAttribute="centerX" id="1bW-ns-r61"/>
+                                                    <constraint firstItem="pug-D4-D3T" firstAttribute="top" secondItem="X9G-iF-cBM" secondAttribute="bottom" constant="199" id="75v-mq-KfI"/>
+                                                    <constraint firstItem="hWf-Rf-AFW" firstAttribute="top" secondItem="Hrn-QS-yyH" secondAttribute="bottom" constant="9" id="FUU-fB-Ur8"/>
+                                                    <constraint firstItem="0Oy-yZ-CIO" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" constant="216" id="HW6-gg-BaD"/>
+                                                    <constraint firstItem="Hrn-QS-yyH" firstAttribute="centerX" secondItem="Itk-Zx-9XM" secondAttribute="centerX" id="Mm3-Dn-zvV"/>
+                                                    <constraint firstItem="pug-D4-D3T" firstAttribute="centerX" secondItem="Itk-Zx-9XM" secondAttribute="centerX" id="NR3-hW-lvH"/>
+                                                    <constraint firstItem="hWf-Rf-AFW" firstAttribute="centerX" secondItem="Itk-Zx-9XM" secondAttribute="centerX" id="Spt-7F-v32"/>
+                                                    <constraint firstItem="0Oy-yZ-CIO" firstAttribute="top" secondItem="hWf-Rf-AFW" secondAttribute="bottom" constant="76" id="V9y-dQ-hg8"/>
                                                     <constraint firstAttribute="bottom" secondItem="zBA-gk-7gY" secondAttribute="bottom" id="Vtm-1V-gLm"/>
+                                                    <constraint firstItem="43A-eh-RA6" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" id="X1H-Dz-S9B"/>
+                                                    <constraint firstItem="43A-eh-RA6" firstAttribute="top" secondItem="Itk-Zx-9XM" secondAttribute="top" id="aeb-fn-lDV"/>
                                                     <constraint firstItem="zBA-gk-7gY" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" id="duo-dM-cGc"/>
+                                                    <constraint firstItem="Hrn-QS-yyH" firstAttribute="top" secondItem="X9G-iF-cBM" secondAttribute="bottom" constant="19" id="fOb-yp-jVM"/>
                                                     <constraint firstAttribute="trailing" secondItem="zBA-gk-7gY" secondAttribute="trailing" id="hUx-Kl-dW7"/>
+                                                    <constraint firstAttribute="trailing" secondItem="43A-eh-RA6" secondAttribute="trailing" id="koc-7b-AmP"/>
+                                                    <constraint firstItem="X9G-iF-cBM" firstAttribute="top" secondItem="Itk-Zx-9XM" secondAttribute="top" constant="7" id="pt7-JR-sKH"/>
                                                     <constraint firstAttribute="height" constant="449" id="qHm-Ae-OH9"/>
                                                     <constraint firstAttribute="width" constant="320" id="tGh-NJ-T6u"/>
+                                                    <constraint firstAttribute="bottom" secondItem="43A-eh-RA6" secondAttribute="bottom" id="z1v-gG-kns"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -252,7 +326,6 @@
                                             <constraint firstAttribute="trailing" secondItem="beW-Jc-dNo" secondAttribute="trailing" id="28f-TJ-Zon"/>
                                             <constraint firstItem="6uy-5D-JPC" firstAttribute="top" secondItem="RMV-WX-sxw" secondAttribute="bottom" constant="25" id="2Vd-C9-AtM"/>
                                             <constraint firstItem="8IV-Ce-xC9" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" id="2Vr-3n-WL1"/>
-                                            <constraint firstAttribute="trailing" secondItem="2ao-dB-CLU" secondAttribute="trailing" constant="26" id="2p3-hM-fr1"/>
                                             <constraint firstItem="RFw-cd-q9v" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" id="2s2-rn-NlP"/>
                                             <constraint firstItem="juX-k0-Cgd" firstAttribute="top" secondItem="RVG-a6-iTZ" secondAttribute="top" constant="23" id="4Ct-iU-Be3"/>
                                             <constraint firstAttribute="height" constant="1500" id="4VR-M1-IPz"/>
@@ -280,6 +353,7 @@
                                             <constraint firstItem="Yru-w6-zKA" firstAttribute="top" secondItem="AUK-Iy-NqR" secondAttribute="bottom" constant="26" id="EjT-dV-hQ1"/>
                                             <constraint firstItem="lgf-fb-BgC" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="86" id="ErI-qY-QCW"/>
                                             <constraint firstItem="RMV-WX-sxw" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="111" id="FZJ-bE-JsS"/>
+                                            <constraint firstItem="Itk-Zx-9XM" firstAttribute="centerX" secondItem="RVG-a6-iTZ" secondAttribute="centerX" id="FaH-pv-UVT"/>
                                             <constraint firstItem="um7-m5-Sbs" firstAttribute="top" secondItem="MlI-yu-LWh" secondAttribute="bottom" constant="25" id="GKB-jL-aZC"/>
                                             <constraint firstItem="6uy-5D-JPC" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="86" id="GR2-eu-BuL"/>
                                             <constraint firstAttribute="bottom" secondItem="r4u-r4-iKP" secondAttribute="bottom" constant="331" id="Ga3-Kk-EdQ"/>
@@ -320,8 +394,6 @@
                                             <constraint firstItem="r4u-r4-iKP" firstAttribute="top" secondItem="oHi-nI-Mfr" secondAttribute="bottom" constant="24" id="WTi-mM-5TA"/>
                                             <constraint firstItem="MfN-lr-xOT" firstAttribute="top" secondItem="iij-DP-QEH" secondAttribute="bottom" constant="26" id="WaT-bV-hzI"/>
                                             <constraint firstItem="wFM-nK-8Ok" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="110" id="Wdk-7p-hhb"/>
-                                            <constraint firstItem="2ao-dB-CLU" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="Xjw-cB-5Od"/>
-                                            <constraint firstItem="2ao-dB-CLU" firstAttribute="top" secondItem="RVG-a6-iTZ" secondAttribute="top" constant="4" id="Xra-mA-Weq"/>
                                             <constraint firstItem="Ziv-55-wEz" firstAttribute="top" secondItem="1fX-Ws-vjM" secondAttribute="bottom" constant="25" id="YBz-Kl-rIj"/>
                                             <constraint firstAttribute="trailing" secondItem="iij-DP-QEH" secondAttribute="trailing" constant="25" id="Z0x-cj-lfw"/>
                                             <constraint firstItem="gpO-5W-crU" firstAttribute="top" secondItem="zdY-3r-fKS" secondAttribute="bottom" constant="26" id="ZVt-25-ZAR"/>
@@ -348,7 +420,6 @@
                                             <constraint firstAttribute="bottom" secondItem="4zk-VK-hFd" secondAttribute="bottom" constant="415" id="hFK-an-K97"/>
                                             <constraint firstItem="oHi-nI-Mfr" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="111" id="hLJ-rh-CZd"/>
                                             <constraint firstAttribute="trailing" secondItem="um7-m5-Sbs" secondAttribute="trailing" constant="111" id="iH8-hU-QhK"/>
-                                            <constraint firstItem="ukd-kz-6hh" firstAttribute="top" secondItem="2ao-dB-CLU" secondAttribute="bottom" constant="17" id="iQ0-me-abi"/>
                                             <constraint firstItem="0CZ-OL-QfA" firstAttribute="top" secondItem="PMp-ju-Wdd" secondAttribute="bottom" constant="27" id="ieB-tM-oua"/>
                                             <constraint firstAttribute="trailing" secondItem="23L-RH-0PD" secondAttribute="trailing" id="iuD-Kc-ots"/>
                                             <constraint firstAttribute="trailing" secondItem="AUK-Iy-NqR" secondAttribute="trailing" constant="111" id="jR7-de-T4Z"/>
@@ -371,7 +442,6 @@
                                             <constraint firstItem="33s-If-InC" firstAttribute="top" secondItem="ukd-kz-6hh" secondAttribute="bottom" constant="30" id="ug6-yS-Af8"/>
                                             <constraint firstItem="lgf-fb-BgC" firstAttribute="top" secondItem="MlI-yu-LWh" secondAttribute="bottom" constant="25" id="vSU-eR-pZL"/>
                                             <constraint firstAttribute="bottom" secondItem="lgf-fb-BgC" secondAttribute="bottom" constant="499" id="vbT-Su-XBe"/>
-                                            <constraint firstItem="FwO-AH-ywg" firstAttribute="top" secondItem="2ao-dB-CLU" secondAttribute="bottom" constant="17" id="vwx-L6-IjC"/>
                                             <constraint firstItem="ukd-kz-6hh" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" id="wi0-r6-a9X"/>
                                             <constraint firstItem="laN-pp-xh6" firstAttribute="top" secondItem="RMV-WX-sxw" secondAttribute="bottom" constant="25" id="xid-FR-tyl"/>
                                             <constraint firstAttribute="bottom" secondItem="Vna-W7-l9B" secondAttribute="bottom" constant="583" id="y35-ah-cts"/>
@@ -401,18 +471,22 @@
                     <connections>
                         <outlet property="backGroundBtn" destination="f5P-ER-IbC" id="DGP-2i-D31"/>
                         <outlet property="centerPopUpConstraint" destination="Lq0-Qg-pg9" id="anC-bg-Bqg"/>
+                        <outlet property="inPutImage" destination="X9G-iF-cBM" id="KHq-6K-aPy"/>
                         <outlet property="popUpView" destination="Itk-Zx-9XM" id="k2y-EK-GAI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="811.875" y="82.5"/>
+            <point key="canvasLocation" x="810.14492753623199" y="81.521739130434796"/>
         </scene>
     </scenes>
     <resources>
         <image name="Bg" width="300" height="168"/>
+        <image name="MavrickLogo" width="240" height="280"/>
         <image name="blueBar" width="1667" height="1667"/>
+        <image name="face" width="900" height="900"/>
         <image name="greenBar" width="1667" height="1667"/>
+        <image name="heartitemenabled" width="30" height="30"/>
         <image name="lightgreenBra" width="1667" height="1667"/>
         <image name="redBar" width="1667" height="1667"/>
         <image name="settings_btn" width="30" height="30"/>
