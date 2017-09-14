@@ -15,9 +15,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var backGroundBtn: UIButton!
     @IBOutlet weak var centerPopUpConstraint: NSLayoutConstraint!
     @IBOutlet weak var popUpView: UIView!
-    @IBOutlet weak var inPutImage: UIImageView!
+    @IBOutlet weak var face2: UIImageView!
+    @IBOutlet weak var mavreck2: UIImageView!
+    @IBOutlet weak var headMavrickLogo: UIImageView!
+    @IBOutlet weak var face: UIImageView!
+   
     
-    @IBOutlet weak var faceImage: UIImageView!
+    @IBOutlet weak var feathersBgsmallImage: UIImageView!
+    @IBOutlet weak var feathersBgBIgImage: UIImageView!
+    
+    @IBOutlet weak var smallBg: UIImageView!
+    
+    @IBOutlet weak var bigBg: UIImageView!
+    
     var rUgoodBro: AVAudioPlayer!
     var whatspopping: AVAudioPlayer!
     var goodBroSurvey: AVAudioPlayer!
@@ -116,8 +126,33 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func changeLogoBtn(_ sender: Any) {
-          }
+    
+    @IBAction func changeBackgroundPressed(_
+        sender: Any) {
+        if feathersBgsmallImage.isHidden == true||smallBg.isHidden == false {
+            feathersBgsmallImage.isHidden = false
+            smallBg.isHidden = true
+        } else if smallBg.isHidden == true||feathersBgsmallImage.isHidden == false{
+            smallBg.isHidden = false
+            feathersBgsmallImage.isHidden = true
+        }    }
+   
+    
+    
+    
+    @IBAction func changeLogoPressed(_ sender: Any)
+    {
+        if face2.isHidden == true||mavreck2.isHidden == false {
+            face2.isHidden = false
+            mavreck2.isHidden = true
+        } else if mavreck2.isHidden == true||face2.isHidden == false{
+            mavreck2.isHidden = false
+            face2.isHidden = true
+        }
+        
+    }
+   
+  
     
     
     
@@ -139,7 +174,62 @@ class ViewController: UIViewController {
         centerPopUpConstraint.constant = -700
         UIView.animate(withDuration: 0.1, animations: {
             self.view.layoutIfNeeded()
-            self.backGroundBtn.alpha = 0        })
+            self.backGroundBtn.alpha = 0
+           
+            
+            
+            if self.face2.isHidden == true{
+                self.face.isHidden = true
+                self.headMavrickLogo.isHidden = false
+            }
+            
+            else if self.face2.isHidden == false{
+                self.face.isHidden = false
+                self.headMavrickLogo.isHidden = true
+            }
+            
+            else if self.mavreck2.isHidden == true{
+                self.headMavrickLogo.isHidden = true
+                self.face.isHidden = false
+            }
+            
+            else if self.mavreck2.isHidden == false{
+                self.headMavrickLogo.isHidden =
+                false
+                self.face.isHidden = true
+                
+            }
+            
+            
+            
+            
+            
+            
+            
+            if self.smallBg.isHidden == true{
+                self.bigBg.isHidden = true
+                self.feathersBgBIgImage.isHidden = false
+            }
+                
+            else if self.smallBg.isHidden == false{
+                self.bigBg.isHidden = false
+                self.feathersBgBIgImage.isHidden = true
+            }
+                
+            else if self.feathersBgsmallImage.isHidden == true{
+                self.feathersBgBIgImage.isHidden = true
+                self.bigBg.isHidden = false
+            }
+                
+            else if self.feathersBgsmallImage.isHidden == false{
+                self.feathersBgBIgImage.isHidden =
+                false
+                self.bigBg.isHidden = true
+                
+            }
+            
+            
+        })
     }
     
    
