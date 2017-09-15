@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */; };
 		BF3B04191F6613CE00975DA5 /* hiMark.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3B04181F6613CE00975DA5 /* hiMark.wav */; };
 		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 		BF3B04181F6613CE00975DA5 /* hiMark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hiMark.wav; sourceTree = "<group>"; };
 		BF89017E1F6278F60020E9DC /* Fvriosa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fvriosa.ttf; sourceTree = "<group>"; };
 		BFA4C4061F48B9E200BF4ED7 /* LoganPaulSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoganPaulSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */,
+				BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */,
 				BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */,
+				BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
