@@ -57,6 +57,7 @@ class ViewController: UIViewController {
             rUgoodBro.prepareToPlay()
         } catch let err as NSError {
             print(err.debugDescription)
+
         }
         
         
@@ -108,8 +109,10 @@ class ViewController: UIViewController {
         do {
             try hiMark = AVAudioPlayer(contentsOf: soundURLsix)
             hiMark.prepareToPlay()
+           
         } catch let err as NSError {
             print(err.debugDescription)
+            
         }
         
         let pathseven = Bundle.main.path(forResource: "whatsInTheBox", ofType: "wav")
@@ -260,6 +263,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func hiMarkPressed(sender: UIButton){
+       
         playHiMark()
     }
     
@@ -267,7 +271,10 @@ class ViewController: UIViewController {
         if hiMark.isPlaying{
             hiMark.stop()
         }
-        hiMark.play()
+        
+            hiMark.play()
+        
+    
     }
     
     func playkongSavageDoggy(){
