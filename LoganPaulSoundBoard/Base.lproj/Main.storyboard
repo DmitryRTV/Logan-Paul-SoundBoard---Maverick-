@@ -152,21 +152,6 @@
                                                     <action selector="whatspoppingPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVT-H3-8Ao"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="25" y="441" width="278" height="59"/>
-                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
-                                                <size key="titleShadowOffset" width="1" height="0.5"/>
-                                                <state key="normal" title="You good bro survey">
-                                                    <color key="titleColor" red="0.79800624073616855" green="0.2063726786002473" blue="0.80165371192893398" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <variation key="heightClass=regular-widthClass=regular">
-                                                    <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="18"/>
-                                                </variation>
-                                                <connections>
-                                                    <action selector="goodBroSurveyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9S-0w-UNw"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="111" y="525" width="278" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
@@ -210,6 +195,21 @@
                                                 </variation>
                                                 <connections>
                                                     <action selector="whatsInTheBoxPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-Dx-WaY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="441" width="278" height="59"/>
+                                                <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
+                                                <size key="titleShadowOffset" width="1" height="0.5"/>
+                                                <state key="normal" title="You good bro survey">
+                                                    <color key="titleColor" red="0.79800624073616855" green="0.2063726786002473" blue="0.80165371192893398" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="18"/>
+                                                </variation>
+                                                <connections>
+                                                    <action selector="goodBroSurveyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9S-0w-UNw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-m5-Sbs" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
@@ -294,16 +294,15 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 </variation>
                                             </button>
-                                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5P-ER-IbC" userLabel="bGbn">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="737"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5P-ER-IbC" userLabel="bGbn">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="closePopUo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHh-Us-YnO"/>
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Itk-Zx-9XM">
-                                                <rect key="frame" x="47" y="25.666666666666657" width="320" height="449"/>
+                                                <rect key="frame" x="-653" y="25.666666666666657" width="320" height="449"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="43A-eh-RA6">
                                                         <rect key="frame" x="0.0" y="-0.66666666666665719" width="320" height="449"/>
@@ -332,8 +331,8 @@
                                                             <constraint firstAttribute="height" constant="128" id="9G2-ZG-dBV"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pug-D4-D3T">
-                                                        <rect key="frame" x="63.666666666666686" y="334" width="193" height="43"/>
+                                                    <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pug-D4-D3T">
+                                                        <rect key="frame" x="63.333333333333371" y="334" width="192.99999999999994" height="43"/>
                                                         <color key="backgroundColor" red="0.89885409294465057" green="0.89451180264057017" blue="0.90319638324873097" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="193" id="VoH-Zx-02A"/>
@@ -429,7 +428,7 @@ layer.masksToBounds
                                                             <action selector="instagramBlueBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="acB-8J-6Nz"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9k-gf-bkB" userLabel="instagramB">
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9k-gf-bkB" userLabel="instagramB">
                                                         <rect key="frame" x="252" y="30.999999999999996" width="38" height="38"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="38" id="N6q-gt-c9w"/>
@@ -440,7 +439,7 @@ layer.masksToBounds
                                                             <action selector="instagramBlackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uh-C4-n70"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa2-dv-jzo" userLabel="TwitterBlack">
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa2-dv-jzo" userLabel="TwitterBlack">
                                                         <rect key="frame" x="252" y="83" width="38" height="37.999999999999986"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="38" id="6hl-Iz-55z"/>
@@ -520,6 +519,7 @@ layer.masksToBounds
                                             <constraint firstAttribute="trailing" secondItem="aGa-S6-L1W" secondAttribute="trailing" constant="86" id="4ZD-ck-T4Z">
                                                 <variation key="widthClass=regular" constant="170"/>
                                             </constraint>
+                                            <constraint firstItem="f5P-ER-IbC" firstAttribute="height" secondItem="RVG-a6-iTZ" secondAttribute="height" id="5ha-DR-cxT"/>
                                             <constraint firstAttribute="bottom" secondItem="p0d-A3-qep" secondAttribute="bottom" constant="1003" id="5oj-l6-8ZE"/>
                                             <constraint firstAttribute="trailing" secondItem="gpO-5W-crU" secondAttribute="trailing" constant="25" id="65j-jU-T8M"/>
                                             <constraint firstAttribute="trailing" secondItem="1fX-Ws-vjM" secondAttribute="trailing" constant="111" id="67q-gJ-YeO"/>
@@ -581,13 +581,14 @@ layer.masksToBounds
                                             <constraint firstAttribute="trailing" secondItem="4zk-VK-hFd" secondAttribute="trailing" constant="86" id="KuX-K9-qfM">
                                                 <variation key="widthClass=regular" constant="170"/>
                                             </constraint>
-                                            <constraint firstItem="Itk-Zx-9XM" firstAttribute="centerX" secondItem="RVG-a6-iTZ" secondAttribute="centerX" id="Lq0-Qg-pg9"/>
+                                            <constraint firstItem="Itk-Zx-9XM" firstAttribute="centerX" secondItem="RVG-a6-iTZ" secondAttribute="centerX" constant="-700" id="Lq0-Qg-pg9"/>
                                             <constraint firstItem="8IV-Ce-xC9" firstAttribute="top" secondItem="RVG-a6-iTZ" secondAttribute="top" id="Lwt-pk-gAw"/>
                                             <constraint firstItem="zdY-3r-fKS" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="MVl-Zf-aAz"/>
                                             <constraint firstItem="PMp-ju-Wdd" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="NWb-iX-ogK"/>
                                             <constraint firstAttribute="trailing" secondItem="wFM-nK-8Ok" secondAttribute="trailing" constant="26" id="O0Y-az-kqJ"/>
                                             <constraint firstItem="laN-pp-xh6" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="25" id="Opi-rl-Ivo"/>
                                             <constraint firstAttribute="trailing" secondItem="RMV-WX-sxw" secondAttribute="trailing" constant="25" id="OvZ-EN-zY2"/>
+                                            <constraint firstItem="f5P-ER-IbC" firstAttribute="width" secondItem="RVG-a6-iTZ" secondAttribute="width" id="P3X-k3-dmz"/>
                                             <constraint firstAttribute="trailing" secondItem="6uy-5D-JPC" secondAttribute="trailing" id="PfF-U1-aEE">
                                                 <variation key="widthClass=regular" constant="50"/>
                                             </constraint>
@@ -643,7 +644,9 @@ layer.masksToBounds
                                             <constraint firstItem="MlI-yu-LWh" firstAttribute="top" secondItem="MfN-lr-xOT" secondAttribute="bottom" constant="24" id="eSH-LO-bmc"/>
                                             <constraint firstItem="Vna-W7-l9B" firstAttribute="top" secondItem="MfN-lr-xOT" secondAttribute="bottom" constant="24" id="eng-w6-WCT"/>
                                             <constraint firstAttribute="trailing" secondItem="laN-pp-xh6" secondAttribute="trailing" constant="111" id="ep6-an-tFk"/>
-                                            <constraint firstAttribute="trailing" secondItem="Ec7-zu-VjR" secondAttribute="trailing" constant="19" id="fhw-JM-w8y"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ec7-zu-VjR" secondAttribute="trailing" constant="19" id="fhw-JM-w8y">
+                                                <variation key="widthClass=regular" constant="100"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="PMp-ju-Wdd" secondAttribute="trailing" constant="111" id="gT4-92-WK5"/>
                                             <constraint firstItem="TUM-2N-FF9" firstAttribute="width" secondItem="8IV-Ce-xC9" secondAttribute="width" id="gth-EI-BB1"/>
                                             <constraint firstAttribute="trailing" secondItem="0CZ-OL-QfA" secondAttribute="trailing" constant="25" id="h7x-Nu-EOO"/>
@@ -675,8 +678,10 @@ layer.masksToBounds
                                             <constraint firstItem="23L-RH-0PD" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="86" id="sQ3-n5-2KE">
                                                 <variation key="widthClass=regular" constant="170"/>
                                             </constraint>
+                                            <constraint firstItem="f5P-ER-IbC" firstAttribute="centerY" secondItem="RVG-a6-iTZ" secondAttribute="centerY" id="sSP-KT-JR8"/>
                                             <constraint firstItem="oHi-nI-Mfr" firstAttribute="top" secondItem="um7-m5-Sbs" secondAttribute="bottom" constant="25" id="sVP-4h-BEQ"/>
                                             <constraint firstItem="Vna-W7-l9B" firstAttribute="top" secondItem="33s-If-InC" secondAttribute="bottom" constant="27" id="t2d-56-PID"/>
+                                            <constraint firstItem="f5P-ER-IbC" firstAttribute="centerX" secondItem="RVG-a6-iTZ" secondAttribute="centerX" id="tAr-OX-DVV"/>
                                             <constraint firstAttribute="bottom" secondItem="23L-RH-0PD" secondAttribute="bottom" constant="-10" id="tJj-Pr-b9w"/>
                                             <constraint firstItem="4zk-VK-hFd" firstAttribute="top" secondItem="beW-Jc-dNo" secondAttribute="bottom" constant="27" id="taY-Fn-UHl"/>
                                             <constraint firstItem="MlI-yu-LWh" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" constant="111" id="tiW-BB-idc"/>
