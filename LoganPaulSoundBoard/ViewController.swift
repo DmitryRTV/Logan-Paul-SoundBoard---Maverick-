@@ -19,14 +19,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var mavreck2: UIImageView!
     @IBOutlet weak var headMavrickLogo: UIImageView!
     @IBOutlet weak var face: UIImageView!
-   
-    
     @IBOutlet weak var feathersBgsmallImage: UIImageView!
     @IBOutlet weak var feathersBgBIgImage: UIImageView!
-    
     @IBOutlet weak var smallBg: UIImageView!
-    
     @IBOutlet weak var bigBg: UIImageView!
+    
+    @IBOutlet weak var twitterBack: UIButton!
+    @IBOutlet weak var twitterBlue: UIButton!
+    @IBOutlet weak var instagramBlack: UIButton!
+    @IBOutlet weak var instagramBlue: UIButton!
+  
     
     var rUgoodBro: AVAudioPlayer!
     var whatspopping: AVAudioPlayer!
@@ -128,6 +130,42 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func twitterBlueBtnPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://twitter.com/dimamarian61")! as URL, options: [:], completionHandler: nil)
+            }
+    
+    @IBAction func twitterBlackBtnPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://twitter.com/dimamarian61")! as URL, options: [:], completionHandler: nil)             }
+
+    @IBAction func instagramBlackBtnPressed(_ sender: Any)
+{
+    let Username =  "dmitryrtv" // Your Instagram Username here
+    let appURL = NSURL(string: "instagram://user?username=\(Username)")!
+    let webURL = NSURL(string: "https://instagram.com/\(Username)")!
+    let application = UIApplication.shared
+    
+    if application.canOpenURL(appURL as URL) {
+        application.open(appURL as URL)
+    } else {
+        // if Instagram app is not installed, open URL inside Safari
+        application.open(webURL as URL)
+    }
+    
+           }
+    
+    @IBAction func instagramBlueBtnPressed(_ sender: Any){
+        let Username =  "dmitryrtv" // Your Instagram Username here
+        let appURL = NSURL(string: "instagram://user?username=\(Username)")!
+        let webURL = NSURL(string: "https://instagram.com/\(Username)")!
+        let application = UIApplication.shared
+        
+        if application.canOpenURL(appURL as URL) {
+            application.open(appURL as URL)
+        } else {
+            // if Instagram app is not installed, open URL inside Safari
+            application.open(webURL as URL)
+        }
+           }
     
     
     @IBAction func changeBackgroundPressed(_
@@ -135,10 +173,22 @@ class ViewController: UIViewController {
         if feathersBgsmallImage.isHidden == true||smallBg.isHidden == false {
             feathersBgsmallImage.isHidden = false
             smallBg.isHidden = true
+            
+            self.twitterBlue.isHidden = true
+            self.instagramBlue.isHidden = true
+            self.instagramBlack.isHidden = false
+            self.twitterBack.isHidden = false
+            
         } else if smallBg.isHidden == true||feathersBgsmallImage.isHidden == false{
             smallBg.isHidden = false
             feathersBgsmallImage.isHidden = true
-        }    }
+            
+            self.twitterBlue.isHidden = false
+            self.instagramBlue.isHidden = false
+            self.instagramBlack.isHidden = true
+            self.twitterBack.isHidden = true
+        }
+    }
    
     
     
@@ -212,11 +262,15 @@ class ViewController: UIViewController {
             if self.smallBg.isHidden == true{
                 self.bigBg.isHidden = true
                 self.feathersBgBIgImage.isHidden = false
+                
+                
             }
                 
             else if self.smallBg.isHidden == false{
                 self.bigBg.isHidden = false
                 self.feathersBgBIgImage.isHidden = true
+                
+               
             }
                 
             else if self.feathersBgsmallImage.isHidden == true{
