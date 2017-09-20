@@ -38,6 +38,15 @@ class ViewController: UIViewController {
     var whatsInTheBox: AVAudioPlayer!
     var hiMark: AVAudioPlayer!
     
+    var thatsMyBoy: AVAudioPlayer!
+    var gotchubro: AVAudioPlayer!
+    var plates: AVAudioPlayer!
+    var YahYeet: AVAudioPlayer!
+    var hoodie: AVAudioPlayer!
+    var noHoneyNo: AVAudioPlayer!
+    var littleBrother: AVAudioPlayer!
+    var drivingWithEven: AVAudioPlayer!
+    
     var sw = false
          
     override func viewDidLoad() {
@@ -128,7 +137,14 @@ class ViewController: UIViewController {
         
         
         
-    }
+        
+        
+        
+          }
+    
+    
+    
+    
     
     @IBAction func twitterBlueBtnPressed(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://twitter.com/dimamarian61")! as URL, options: [:], completionHandler: nil)
@@ -316,19 +332,17 @@ class ViewController: UIViewController {
        playwhatsInTheBox()
     }
     
-    @IBAction func hiMarkPressed(sender: UIButton){
-       
+    
+    @IBAction func hiMarkPressed(_ sender: Any) {
         playHiMark()
     }
+    
     
     func playHiMark(){
         if hiMark.isPlaying{
             hiMark.stop()
         }
-        
-            hiMark.play()
-        
-    
+        hiMark.play()
     }
     
     func playkongSavageDoggy(){

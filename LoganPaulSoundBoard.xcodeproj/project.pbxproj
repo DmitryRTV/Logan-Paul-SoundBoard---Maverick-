@@ -40,6 +40,14 @@
 		BFE86CD51F4FA96900121C08 /* introsong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = introsong.wav; sourceTree = "<group>"; };
 		BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kongSavageDoggy.wav; sourceTree = "<group>"; };
 		BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatsInTheBox.wav; sourceTree = "<group>"; };
+		BFFCCD021F7220050018A95B /* drivingWithEven.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drivingWithEven.wav; sourceTree = "<group>"; };
+		BFFCCD031F72200E0018A95B /* gotchubro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotchubro.wav; sourceTree = "<group>"; };
+		BFFCCD041F7220130018A95B /* hoodie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hoodie.wav; sourceTree = "<group>"; };
+		BFFCCD051F7220190018A95B /* littleBrother.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = littleBrother.wav; sourceTree = "<group>"; };
+		BFFCCD061F7220200018A95B /* noHoneyNo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noHoneyNo.wav; sourceTree = "<group>"; };
+		BFFCCD071F7220250018A95B /* plates.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plates.wav; sourceTree = "<group>"; };
+		BFFCCD081F72202A0018A95B /* thatsMyBoy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thatsMyBoy.wav; sourceTree = "<group>"; };
+		BFFCCD091F72202F0018A95B /* YahYeet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = YahYeet.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 		BFC42FF71F5B75B400A5DEBF /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				BFFCCD011F721FEF0018A95B /* Sounds2 */,
 				BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */,
 				BFE86CCF1F4F9F6700121C08 /* rUgoodBro.wav */,
 				BF3B04181F6613CE00975DA5 /* hiMark.wav */,
@@ -113,6 +122,21 @@
 				BFE86CD11F4FA92F00121C08 /* whatspapping.wav */,
 			);
 			name = Sounds;
+			sourceTree = "<group>";
+		};
+		BFFCCD011F721FEF0018A95B /* Sounds2 */ = {
+			isa = PBXGroup;
+			children = (
+				BFFCCD031F72200E0018A95B /* gotchubro.wav */,
+				BFFCCD071F7220250018A95B /* plates.wav */,
+				BFFCCD081F72202A0018A95B /* thatsMyBoy.wav */,
+				BFFCCD091F72202F0018A95B /* YahYeet.wav */,
+				BFFCCD041F7220130018A95B /* hoodie.wav */,
+				BFFCCD061F7220200018A95B /* noHoneyNo.wav */,
+				BFFCCD051F7220190018A95B /* littleBrother.wav */,
+				BFFCCD021F7220050018A95B /* drivingWithEven.wav */,
+			);
+			name = Sounds2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,12 +166,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = DmitryRTV;
 				TargetAttributes = {
 					BFA4C4051F48B9E200BF4ED7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 53SC4HX862;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -233,7 +258,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -241,7 +268,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -283,7 +314,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -291,7 +324,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -326,7 +363,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryRTV.LoganPaulSoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -339,7 +377,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryRTV.LoganPaulSoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
