@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF17C2B31F72F6A200249800 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF17C2B21F72F6A200249800 /* AVFoundation.framework */; };
 		BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */; };
-		BF3B04191F6613CE00975DA5 /* hiMark.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF3B04181F6613CE00975DA5 /* hiMark.wav */; };
 		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
 		BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */; };
 		BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C40D1F48B9E300BF4ED7 /* Main.storyboard */; };
 		BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C4101F48B9E300BF4ED7 /* Assets.xcassets */; };
 		BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C4121F48B9E300BF4ED7 /* LaunchScreen.storyboard */; };
-		BFE86CD01F4F9F6700121C08 /* rUgoodBro.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CCF1F4F9F6700121C08 /* rUgoodBro.wav */; };
-		BFE86CD21F4FA92F00121C08 /* whatspapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD11F4FA92F00121C08 /* whatspapping.wav */; };
-		BFE86CD41F4FA96000121C08 /* goodBroSurvey.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD31F4FA96000121C08 /* goodBroSurvey.wav */; };
-		BFE86CD61F4FA96900121C08 /* introsong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD51F4FA96900121C08 /* introsong.wav */; };
-		BFE86CDA1F4FA98000121C08 /* kongSavageDoggy.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */; };
-		BFE86CDC1F4FA98A00121C08 /* whatsInTheBox.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF17C2A21F72F51700249800 /* introsong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = introsong.wav; sourceTree = "<group>"; };
+		BF17C2A31F72F51700249800 /* its_a_good_bro_servey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = its_a_good_bro_servey.wav; sourceTree = "<group>"; };
+		BF17C2A41F72F51700249800 /* whatspapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatspapping.wav; sourceTree = "<group>"; };
+		BF17C2A51F72F51700249800 /* whatsInTheBox.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatsInTheBox.wav; sourceTree = "<group>"; };
+		BF17C2A61F72F51700249800 /* hi_Mark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hi_Mark.wav; sourceTree = "<group>"; };
+		BF17C2A71F72F51800249800 /* savage_doggy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = savage_doggy.wav; sourceTree = "<group>"; };
+		BF17C2A81F72F51800249800 /* rUgoodBro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rUgoodBro.wav; sourceTree = "<group>"; };
+		BF17C2A91F72F52F00249800 /* noHoney.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noHoney.wav; sourceTree = "<group>"; };
+		BF17C2AA1F72F53000249800 /* hoodie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hoodie.wav; sourceTree = "<group>"; };
+		BF17C2AB1F72F53000249800 /* plates.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plates.wav; sourceTree = "<group>"; };
+		BF17C2AC1F72F53000249800 /* littleBrother.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = littleBrother.wav; sourceTree = "<group>"; };
+		BF17C2AD1F72F53000249800 /* thatsMyBoy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thatsMyBoy.wav; sourceTree = "<group>"; };
+		BF17C2AE1F72F53100249800 /* Yah yeet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Yah yeet.wav"; sourceTree = "<group>"; };
+		BF17C2AF1F72F53100249800 /* drivingWithEven.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drivingWithEven.wav; sourceTree = "<group>"; };
+		BF17C2B01F72F53100249800 /* gotchubro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotchubro.wav; sourceTree = "<group>"; };
+		BF17C2B21F72F6A200249800 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
-		BF3B04181F6613CE00975DA5 /* hiMark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hiMark.wav; sourceTree = "<group>"; };
 		BF89017E1F6278F60020E9DC /* Fvriosa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fvriosa.ttf; sourceTree = "<group>"; };
 		BFA4C4061F48B9E200BF4ED7 /* LoganPaulSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoganPaulSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,12 +43,6 @@
 		BFA4C4101F48B9E300BF4ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA4C4131F48B9E300BF4ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA4C4151F48B9E300BF4ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFE86CCF1F4F9F6700121C08 /* rUgoodBro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rUgoodBro.wav; sourceTree = "<group>"; };
-		BFE86CD11F4FA92F00121C08 /* whatspapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatspapping.wav; sourceTree = "<group>"; };
-		BFE86CD31F4FA96000121C08 /* goodBroSurvey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = goodBroSurvey.wav; sourceTree = "<group>"; };
-		BFE86CD51F4FA96900121C08 /* introsong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = introsong.wav; sourceTree = "<group>"; };
-		BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kongSavageDoggy.wav; sourceTree = "<group>"; };
-		BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatsInTheBox.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +50,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF17C2B31F72F6A200249800 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF17C2A11F72F4D600249800 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF17C2A61F72F51700249800 /* hi_Mark.wav */,
+				BF17C2A21F72F51700249800 /* introsong.wav */,
+				BF17C2A31F72F51700249800 /* its_a_good_bro_servey.wav */,
+				BF17C2A81F72F51800249800 /* rUgoodBro.wav */,
+				BF17C2A71F72F51800249800 /* savage_doggy.wav */,
+				BF17C2A51F72F51700249800 /* whatsInTheBox.wav */,
+				BF17C2A41F72F51700249800 /* whatspapping.wav */,
+				BF17C2AF1F72F53100249800 /* drivingWithEven.wav */,
+				BF17C2B01F72F53100249800 /* gotchubro.wav */,
+				BF17C2AA1F72F53000249800 /* hoodie.wav */,
+				BF17C2AC1F72F53000249800 /* littleBrother.wav */,
+				BF17C2A91F72F52F00249800 /* noHoney.wav */,
+				BF17C2AB1F72F53000249800 /* plates.wav */,
+				BF17C2AD1F72F53000249800 /* thatsMyBoy.wav */,
+				BF17C2AE1F72F53100249800 /* Yah yeet.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		BF17C2B11F72F6A200249800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF17C2B21F72F6A200249800 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF3B04131F62F16800975DA5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +109,7 @@
 			children = (
 				BFA4C4081F48B9E200BF4ED7 /* LoganPaulSoundBoard */,
 				BFA4C4071F48B9E200BF4ED7 /* Products */,
+				BF17C2B11F72F6A200249800 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +124,7 @@
 		BFA4C4081F48B9E200BF4ED7 /* LoganPaulSoundBoard */ = {
 			isa = PBXGroup;
 			children = (
-				BFC42FF71F5B75B400A5DEBF /* Sounds */,
+				BF17C2A11F72F4D600249800 /* sounds */,
 				BF8901801F6279090020E9DC /* fonts */,
 				BF3B04131F62F16800975DA5 /* Controllers */,
 				BFA4C40D1F48B9E300BF4ED7 /* Main.storyboard */,
@@ -99,20 +134,6 @@
 				BFA4C4151F48B9E300BF4ED7 /* Info.plist */,
 			);
 			path = LoganPaulSoundBoard;
-			sourceTree = "<group>";
-		};
-		BFC42FF71F5B75B400A5DEBF /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */,
-				BFE86CCF1F4F9F6700121C08 /* rUgoodBro.wav */,
-				BF3B04181F6613CE00975DA5 /* hiMark.wav */,
-				BFE86CD51F4FA96900121C08 /* introsong.wav */,
-				BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */,
-				BFE86CD31F4FA96000121C08 /* goodBroSurvey.wav */,
-				BFE86CD11F4FA92F00121C08 /* whatspapping.wav */,
-			);
-			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,17 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE86CDA1F4FA98000121C08 /* kongSavageDoggy.wav in Resources */,
-				BF3B04191F6613CE00975DA5 /* hiMark.wav in Resources */,
 				BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */,
 				BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */,
-				BFE86CD41F4FA96000121C08 /* goodBroSurvey.wav in Resources */,
-				BFE86CD61F4FA96900121C08 /* introsong.wav in Resources */,
 				BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */,
-				BFE86CDC1F4FA98A00121C08 /* whatsInTheBox.wav in Resources */,
 				BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */,
-				BFE86CD21F4FA92F00121C08 /* whatspapping.wav in Resources */,
-				BFE86CD01F4F9F6700121C08 /* rUgoodBro.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
