@@ -44,10 +44,10 @@ class ViewController: UIViewController {
         
         
         
-        for _ in audioPlayers {
+        for sound in soundFilesNames {
             
             do {
-                let url = URL(fileURLWithPath: Bundle.main.path(forResource: "sound", ofType: "wav")!)
+                let url = URL(fileURLWithPath: Bundle.main.path(forResource: sound, ofType: "wav")!)
                 let audioPlayer = try AVAudioPlayer(contentsOf: url as URL)
                 
                 audioPlayers.append(audioPlayer)
