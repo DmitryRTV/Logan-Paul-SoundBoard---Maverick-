@@ -38,14 +38,6 @@ class ViewController: UIViewController {
     var whatsInTheBox: AVAudioPlayer!
     var hiMark: AVAudioPlayer!
     
-    var thatsMyBoy: AVAudioPlayer!
-    var gotchubro: AVAudioPlayer!
-    var plates: AVAudioPlayer!
-    var YahYeet: AVAudioPlayer!
-    var hoodie: AVAudioPlayer!
-    var noHoneyNo: AVAudioPlayer!
-    var littleBrother: AVAudioPlayer!
-    var drivingWithEven: AVAudioPlayer!
     
     var sw = false
          

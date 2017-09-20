@@ -178,9 +178,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="18"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="gotchubroPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kKY-je-WXb"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlI-yu-LWh" userLabel="thatsMyBoy" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="111" y="693" width="888" height="59"/>
@@ -193,9 +190,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="18"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="thatsMyBoyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FP6-yz-K5I"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="25" y="441" width="888" height="59"/>
@@ -209,7 +203,7 @@
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="18"/>
                                                 </variation>
                                                 <connections>
-                                                    <action selector="goodBroSurveyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9S-0w-UNw"/>
+                                                    <action selector="goodBroSurveyPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KK2-oC-DGU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-m5-Sbs" userLabel="YahYeet" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
@@ -223,9 +217,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="YahYeetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H8E-fG-0hk"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHi-nI-Mfr" userLabel="noHoneyNo" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="111" y="861" width="888" height="59"/>
@@ -238,9 +229,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="noHoneyNoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mc3-i2-eb7"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-Ws-vjM" userLabel="drivingWithEven" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="25" y="944" width="888" height="59"/>
@@ -253,9 +241,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="drivingWithEvenPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A4J-ie-a5e"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMV-WX-sxw" userLabel="plates" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="111" y="1028" width="888" height="59"/>
@@ -268,9 +253,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="platesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aBt-PU-KVd"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laN-pp-xh6" userLabel="hoodie" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="25" y="1112" width="888" height="59"/>
@@ -283,9 +265,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="hoodie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gev-vx-wtx"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFM-nK-8Ok" userLabel="littleBrother" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="110" y="1196" width="888" height="59"/>
@@ -298,9 +277,6 @@
                                                 <variation key="heightClass=regular-widthClass=regular">
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 </variation>
-                                                <connections>
-                                                    <action selector="littleBrother:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Smr-nt-zE8"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMp-ju-Wdd" userLabel="whats In The Box?" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                 <rect key="frame" x="25" y="1280" width="888" height="59"/>
@@ -314,7 +290,7 @@
                                                     <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 </variation>
                                                 <connections>
-                                                    <action selector="whatsInTheBoxPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oe8-es-FDl"/>
+                                                    <action selector="whatsInTheBoxPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S0m-S3-306"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-OL-QfA" userLabel="hiMark" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
