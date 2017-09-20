@@ -40,14 +40,6 @@
 		BFE86CD51F4FA96900121C08 /* introsong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = introsong.wav; sourceTree = "<group>"; };
 		BFE86CD91F4FA98000121C08 /* kongSavageDoggy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kongSavageDoggy.wav; sourceTree = "<group>"; };
 		BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatsInTheBox.wav; sourceTree = "<group>"; };
-		BFFCCD021F7220050018A95B /* drivingWithEven.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drivingWithEven.wav; sourceTree = "<group>"; };
-		BFFCCD031F72200E0018A95B /* gotchubro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotchubro.wav; sourceTree = "<group>"; };
-		BFFCCD041F7220130018A95B /* hoodie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hoodie.wav; sourceTree = "<group>"; };
-		BFFCCD051F7220190018A95B /* littleBrother.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = littleBrother.wav; sourceTree = "<group>"; };
-		BFFCCD061F7220200018A95B /* noHoneyNo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noHoneyNo.wav; sourceTree = "<group>"; };
-		BFFCCD071F7220250018A95B /* plates.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plates.wav; sourceTree = "<group>"; };
-		BFFCCD081F72202A0018A95B /* thatsMyBoy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thatsMyBoy.wav; sourceTree = "<group>"; };
-		BFFCCD091F72202F0018A95B /* YahYeet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = YahYeet.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +104,6 @@
 		BFC42FF71F5B75B400A5DEBF /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				BFFCCD011F721FEF0018A95B /* Sounds2 */,
 				BFE86CDB1F4FA98A00121C08 /* whatsInTheBox.wav */,
 				BFE86CCF1F4F9F6700121C08 /* rUgoodBro.wav */,
 				BF3B04181F6613CE00975DA5 /* hiMark.wav */,
@@ -122,21 +113,6 @@
 				BFE86CD11F4FA92F00121C08 /* whatspapping.wav */,
 			);
 			name = Sounds;
-			sourceTree = "<group>";
-		};
-		BFFCCD011F721FEF0018A95B /* Sounds2 */ = {
-			isa = PBXGroup;
-			children = (
-				BFFCCD031F72200E0018A95B /* gotchubro.wav */,
-				BFFCCD071F7220250018A95B /* plates.wav */,
-				BFFCCD081F72202A0018A95B /* thatsMyBoy.wav */,
-				BFFCCD091F72202F0018A95B /* YahYeet.wav */,
-				BFFCCD041F7220130018A95B /* hoodie.wav */,
-				BFFCCD061F7220200018A95B /* noHoneyNo.wav */,
-				BFFCCD051F7220190018A95B /* littleBrother.wav */,
-				BFFCCD021F7220050018A95B /* drivingWithEven.wav */,
-			);
-			name = Sounds2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
