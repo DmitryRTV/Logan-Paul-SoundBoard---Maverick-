@@ -42,6 +42,8 @@ class ViewController: UIViewController {
         popUpView.layer.cornerRadius = 15
         popUpView.layer.masksToBounds = true
         
+        
+        
         for sound in soundFilesNames {
             
             guard let urlString = Bundle.main.path(forResource: sound, ofType: "wav") else {
