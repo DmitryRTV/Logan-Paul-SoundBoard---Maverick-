@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
     var audioPlayers = [AVAudioPlayer]()
     
-    
+    var lastAudioPlayer = 0
     var sw = false
          
     override func viewDidLoad() {
@@ -42,21 +42,31 @@ class ViewController: UIViewController {
         popUpView.layer.cornerRadius = 15
         popUpView.layer.masksToBounds = true
         
-        
-        
         for sound in soundFilesNames {
             
+            guard let urlString = Bundle.main.path(forResource: sound, ofType: "wav") else {
+                
+                print("Sound file not found: \(sound)")
+                
+                continue
+            }
+            
+            let url = URL(fileURLWithPath:urlString)
+            
             do {
-                let url = URL(fileURLWithPath: Bundle.main.path(forResource: sound, ofType: "wav")!)
-                let audioPlayer = try AVAudioPlayer(contentsOf: url as URL)
+                
+                // Try to do something
+                let audioPlayer = try AVAudioPlayer (contentsOf:url)
                 
                 audioPlayers.append(audioPlayer)
             }
-            catch{
-                audioPlayers.append(AVAudioPlayer())            }
-            
+            catch {
+                
+                // Catch the error that is thrown
+                audioPlayers.append(AVAudioPlayer())
+            }
         }
-  }
+          }
     
     
     

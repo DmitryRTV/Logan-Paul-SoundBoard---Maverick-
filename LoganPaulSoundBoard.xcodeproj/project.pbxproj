@@ -15,6 +15,21 @@
 		BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C40D1F48B9E300BF4ED7 /* Main.storyboard */; };
 		BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C4101F48B9E300BF4ED7 /* Assets.xcassets */; };
 		BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C4121F48B9E300BF4ED7 /* LaunchScreen.storyboard */; };
+		BFDD45201F7367D800DA8A31 /* hi_Mark.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A61F72F51700249800 /* hi_Mark.wav */; };
+		BFDD45211F7367D800DA8A31 /* introsong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A21F72F51700249800 /* introsong.wav */; };
+		BFDD45221F7367D800DA8A31 /* its_a_good_bro_servey.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A31F72F51700249800 /* its_a_good_bro_servey.wav */; };
+		BFDD45231F7367D800DA8A31 /* rUgoodBro.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A81F72F51800249800 /* rUgoodBro.wav */; };
+		BFDD45241F7367D800DA8A31 /* savage_doggy.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A71F72F51800249800 /* savage_doggy.wav */; };
+		BFDD45251F7367D800DA8A31 /* whatsInTheBox.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A51F72F51700249800 /* whatsInTheBox.wav */; };
+		BFDD45261F7367D800DA8A31 /* whatspapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A41F72F51700249800 /* whatspapping.wav */; };
+		BFDD45271F7367D800DA8A31 /* drivingWithEven.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2AF1F72F53100249800 /* drivingWithEven.wav */; };
+		BFDD45281F7367D800DA8A31 /* gotchubro.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2B01F72F53100249800 /* gotchubro.wav */; };
+		BFDD45291F7367D800DA8A31 /* hoodie.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2AA1F72F53000249800 /* hoodie.wav */; };
+		BFDD452A1F7367D800DA8A31 /* littleBrother.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2AC1F72F53000249800 /* littleBrother.wav */; };
+		BFDD452B1F7367D800DA8A31 /* noHoney.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A91F72F52F00249800 /* noHoney.wav */; };
+		BFDD452C1F7367D800DA8A31 /* plates.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2AB1F72F53000249800 /* plates.wav */; };
+		BFDD452D1F7367D800DA8A31 /* thatsMyBoy.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2AD1F72F53000249800 /* thatsMyBoy.wav */; };
+		BFDD452E1F7367D800DA8A31 /* Yah yeet.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2AE1F72F53100249800 /* Yah yeet.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -197,6 +212,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDD45201F7367D800DA8A31 /* hi_Mark.wav in Resources */,
+				BFDD45211F7367D800DA8A31 /* introsong.wav in Resources */,
+				BFDD45221F7367D800DA8A31 /* its_a_good_bro_servey.wav in Resources */,
+				BFDD45231F7367D800DA8A31 /* rUgoodBro.wav in Resources */,
+				BFDD45241F7367D800DA8A31 /* savage_doggy.wav in Resources */,
+				BFDD45251F7367D800DA8A31 /* whatsInTheBox.wav in Resources */,
+				BFDD45261F7367D800DA8A31 /* whatspapping.wav in Resources */,
+				BFDD45271F7367D800DA8A31 /* drivingWithEven.wav in Resources */,
+				BFDD45281F7367D800DA8A31 /* gotchubro.wav in Resources */,
+				BFDD45291F7367D800DA8A31 /* hoodie.wav in Resources */,
+				BFDD452A1F7367D800DA8A31 /* littleBrother.wav in Resources */,
+				BFDD452B1F7367D800DA8A31 /* noHoney.wav in Resources */,
+				BFDD452C1F7367D800DA8A31 /* plates.wav in Resources */,
+				BFDD452D1F7367D800DA8A31 /* thatsMyBoy.wav in Resources */,
+				BFDD452E1F7367D800DA8A31 /* Yah yeet.wav in Resources */,
 				BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */,
 				BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */,
 				BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */,
