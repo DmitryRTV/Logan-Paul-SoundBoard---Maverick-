@@ -47,24 +47,13 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupAds()
         popUpView.layer.cornerRadius = 15
         popUpView.layer.masksToBounds = true
         
-        if UserDefaults.standard.bool(forKey: PurchaseManager.instance.IAP_REMOVE_ADS)  {
-            removeAdsBtn.removeFromSuperview()
-            bannerView.removeFromSuperview()
-        } else {
-            
-            bannerView.adUnitID = "ca-app-pub-2103888227716232/2446723963"
-            bannerView.rootViewController = self
-            bannerView.load(GADRequest())        }
         
         
-        
-        
-        
-        
-        for sound in soundFilesNames {
+            for sound in soundFilesNames {
             
             guard let urlString = Bundle.main.path(forResource: sound, ofType: "wav") else {
                 
@@ -86,23 +75,42 @@ class ViewController: UIViewController, GADBannerViewDelegate {
                 
                 // Catch the error that is thrown
                 audioPlayers.append(AVAudioPlayer())
-            }
+      }
+    }
+  }
+    
+    func setupAds() {
+        if UserDefaults.standard.bool(forKey: PurchaseManager.instance.IAP_REMOVE_ADS) {
+            removeAdsBtn.removeFromSuperview()
+            bannerView.removeFromSuperview()
+        } else {
+            bannerView.adUnitID = "ca-app-pub-2103888227716232/2446723963"
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
         }
-          }
+    }
     
     @IBAction func removeAdsPressed(_ sender: Any) {
-//        show acivity spinner ActivityIndicator
+        //show a loading spinner ActivityIndicator
         PurchaseManager.instance.purchaseRemoveAds { success in
-//            dismiss spinner
+            //dismiss spinner
             if success {
                 self.bannerView.removeFromSuperview()
                 self.removeAdsBtn.removeFromSuperview()
             } else {
-//                 show massage to the user why it failed
+                //show message to the user
             }
         }
     }
     
+    @IBAction func restoreBtnPressed(_ sender: Any) {
+        PurchaseManager.instance.restorePurchases { success in
+            if success {
+                self.setupAds()
+            }
+        }
+        
+    }
     
     @IBAction func btnPressed(_ sender: UIButton) {
         let audioPlayer = audioPlayers[sender.tag]

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -488,14 +488,28 @@ layer.masksToBounds
                                                             <action selector="twitterBlackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="32P-D6-NSG"/>
                                                         </connections>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKn-y9-N4c" userLabel="restorePurchasesBtn">
+                                                        <rect key="frame" x="91" y="303" width="139" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="139" id="BmJ-51-fZP"/>
+                                                            <constraint firstAttribute="height" constant="30" id="Maw-t4-jZa"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <state key="normal" title="Restore Purchases"/>
+                                                        <connections>
+                                                            <action selector="restoreBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yD-sd-kkp"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.73824581938632372" green="0.97100774744383778" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstItem="pug-D4-D3T" firstAttribute="centerX" secondItem="hWf-Rf-AFW" secondAttribute="centerX" id="1oR-vC-G1v"/>
                                                     <constraint firstItem="hWf-Rf-AFW" firstAttribute="centerX" secondItem="Hrn-QS-yyH" secondAttribute="centerX" id="3p6-Uz-GgB"/>
                                                     <constraint firstItem="Hrn-QS-yyH" firstAttribute="centerX" secondItem="X9G-iF-cBM" secondAttribute="centerX" id="4rC-ox-VTS"/>
+                                                    <constraint firstItem="EKn-y9-N4c" firstAttribute="centerX" secondItem="Itk-Zx-9XM" secondAttribute="centerX" id="53w-GY-THH"/>
                                                     <constraint firstItem="xa2-dv-jzo" firstAttribute="top" secondItem="J9k-gf-bkB" secondAttribute="bottom" constant="14" id="5Jm-l6-vK5"/>
                                                     <constraint firstItem="Ygb-Ve-yuw" firstAttribute="top" secondItem="Itk-Zx-9XM" secondAttribute="top" constant="7" id="5SQ-Vw-Ikj"/>
+                                                    <constraint firstItem="EKn-y9-N4c" firstAttribute="top" secondItem="hWf-Rf-AFW" secondAttribute="bottom" constant="38" id="7FL-SU-K2A"/>
                                                     <constraint firstAttribute="bottom" secondItem="zBA-gk-7gY" secondAttribute="bottom" id="9C7-gM-Ot7"/>
                                                     <constraint firstItem="hWf-Rf-AFW" firstAttribute="top" secondItem="Hrn-QS-yyH" secondAttribute="bottom" constant="9" id="9d5-Ip-Ubs"/>
                                                     <constraint firstItem="DqY-KM-KLp" firstAttribute="centerY" secondItem="43A-eh-RA6" secondAttribute="centerY" id="9jz-KA-qYf"/>

@@ -5,7 +5,7 @@
 //  Created by Dmitri Marian on 9/21/17.
 //  Copyright © 2017 DmitryRTV. All rights reserved.
 //
-typealias CompelitionHandler = (_ success: Bool) -> ()
+typealias CompletionHandler = (_ success: Bool) -> ()
 import Foundation
 import StoreKit
 
@@ -16,31 +16,40 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
     
     let IAP_REMOVE_ADS = "DmitryRTV.LoganPaulSoundBoard.remove.ads"
     
-    
-    var productsRequests: SKProductsRequest!
+    var productsRequest: SKProductsRequest!
     var products = [SKProduct]()
-    var transactionComplete: CompelitionHandler?
+    var transactionComplete: CompletionHandler?
     
-    func fetchProducts(){
-        let productIds = NSSet(object: IAP_REMOVE_ADS) as! Set <String>
-        productsRequests = SKProductsRequest(productIdentifiers: productIds)
-        productsRequests.delegate = self
-        productsRequests.start()
+    func fetchProducts() {
+        let productIds = NSSet(object: IAP_REMOVE_ADS) as! Set<String>
+        productsRequest = SKProductsRequest(productIdentifiers: productIds)
+        productsRequest.delegate = self
+        productsRequest.start()
     }
     
-    func purchaseRemoveAds(onComplite: @escaping CompelitionHandler){
-            if SKPaymentQueue.canMakePayments() && products.count > 0 {
-            transactionComplete = onComplite
-            let removeAdsProducts = products[0]
-            let payment = SKPayment(product: removeAdsProducts)
+    func purchaseRemoveAds(onComplete: @escaping CompletionHandler) {
+        if SKPaymentQueue.canMakePayments() && products.count > 0 {
+            transactionComplete = onComplete
+            let removeAdsProduct = products[0]
+            let payment = SKPayment(product: removeAdsProduct)
             SKPaymentQueue.default().add(self)
             SKPaymentQueue.default().add(payment)
         } else {
-            onComplite(false)
+            onComplete(false)
         }
     }
     
+    func restorePurchases(onComplete: @escaping CompletionHandler) {
+        if SKPaymentQueue.canMakePayments(){
+            transactionComplete = onComplete
+            SKPaymentQueue.default().add(self)
+            SKPaymentQueue.default().restoreCompletedTransactions()
+        } else {
+            onComplete(false)
+        }
+    }
     func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+        
         if response.products.count > 0 {
             print(response.products.debugDescription)
             products = response.products
@@ -48,7 +57,7 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
         
     }
     func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
-        for transaction in transactions{
+        for transaction in transactions {
             switch transaction.transactionState {
             case .purchased:
                 SKPaymentQueue.default().finishTransaction(transaction)
@@ -63,6 +72,9 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
                 break
             case .restored:
                 SKPaymentQueue.default().finishTransaction(transaction)
+                if transaction.payment.productIdentifier == IAP_REMOVE_ADS {
+                    UserDefaults.standard.set(true, forKey: IAP_REMOVE_ADS)
+                }
                 transactionComplete?(true)
             default:
                 transactionComplete?(false)
@@ -71,3 +83,4 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
         }
     }
 }
+
