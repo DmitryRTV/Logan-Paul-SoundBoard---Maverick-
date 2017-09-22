@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		BF17C2B31F72F6A200249800 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF17C2B21F72F6A200249800 /* AVFoundation.framework */; };
 		BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */; };
+		BF2A51DF1F7443F500CAC235 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */; };
+		BF2A51E11F74443400CAC235 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2A51E01F74443400CAC235 /* GoogleService-Info.plist */; };
+		BF2A51E21F744D4D00CAC235 /* GoogleMobileAds.framework in Resources */ = {isa = PBXBuildFile; fileRef = BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */; };
+		BF2A51E31F744D4D00CAC235 /* AVFoundation.framework in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2B21F72F6A200249800 /* AVFoundation.framework */; };
+		BF2A51E51F748ABA00CAC235 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2A51E41F748ABA00CAC235 /* StoreKit.framework */; };
+		BF2A51E81F749BF100CAC235 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A51E71F749BF100CAC235 /* PurchaseManager.swift */; };
 		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
 		BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */; };
@@ -50,6 +56,10 @@
 		BF17C2B01F72F53100249800 /* gotchubro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotchubro.wav; sourceTree = "<group>"; };
 		BF17C2B21F72F6A200249800 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		BF2A51E01F74443400CAC235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF2A51E41F748ABA00CAC235 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BF2A51E71F749BF100CAC235 /* PurchaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		BF89017E1F6278F60020E9DC /* Fvriosa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fvriosa.ttf; sourceTree = "<group>"; };
 		BFA4C4061F48B9E200BF4ED7 /* LoganPaulSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoganPaulSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2A51E51F748ABA00CAC235 /* StoreKit.framework in Frameworks */,
+				BF2A51DF1F7443F500CAC235 /* GoogleMobileAds.framework in Frameworks */,
 				BF17C2B31F72F6A200249800 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,9 +109,19 @@
 		BF17C2B11F72F6A200249800 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A51E41F748ABA00CAC235 /* StoreKit.framework */,
+				BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */,
 				BF17C2B21F72F6A200249800 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2A51E61F749BC100CAC235 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A51E71F749BF100CAC235 /* PurchaseManager.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		BF3B04131F62F16800975DA5 /* Controllers */ = {
@@ -122,6 +144,7 @@
 		BFA4C3FD1F48B9E200BF4ED7 = {
 			isa = PBXGroup;
 			children = (
+				BF2A51E01F74443400CAC235 /* GoogleService-Info.plist */,
 				BFA4C4081F48B9E200BF4ED7 /* LoganPaulSoundBoard */,
 				BFA4C4071F48B9E200BF4ED7 /* Products */,
 				BF17C2B11F72F6A200249800 /* Frameworks */,
@@ -139,6 +162,7 @@
 		BFA4C4081F48B9E200BF4ED7 /* LoganPaulSoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A51E61F749BC100CAC235 /* Services */,
 				BF17C2A11F72F4D600249800 /* sounds */,
 				BF8901801F6279090020E9DC /* fonts */,
 				BF3B04131F62F16800975DA5 /* Controllers */,
@@ -186,6 +210,11 @@
 						DevelopmentTeam = 53SC4HX862;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -212,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2A51E21F744D4D00CAC235 /* GoogleMobileAds.framework in Resources */,
+				BF2A51E31F744D4D00CAC235 /* AVFoundation.framework in Resources */,
 				BFDD45201F7367D800DA8A31 /* hi_Mark.wav in Resources */,
 				BFDD45211F7367D800DA8A31 /* introsong.wav in Resources */,
 				BFDD45221F7367D800DA8A31 /* its_a_good_bro_servey.wav in Resources */,
@@ -229,6 +260,7 @@
 				BFDD452E1F7367D800DA8A31 /* Yah yeet.wav in Resources */,
 				BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */,
 				BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */,
+				BF2A51E11F74443400CAC235 /* GoogleService-Info.plist in Resources */,
 				BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */,
 				BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */,
 			);
@@ -243,6 +275,7 @@
 			files = (
 				BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */,
 				BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */,
+				BF2A51E81F749BF100CAC235 /* PurchaseManager.swift in Sources */,
 				BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,12 +414,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53SC4HX862;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LoganPaulSoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryRTV.LoganPaulSoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -395,12 +434,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53SC4HX862;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LoganPaulSoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryRTV.LoganPaulSoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -8,10 +8,12 @@
 
 import UIKit
 import AVFoundation
+import GoogleMobileAds
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GADBannerViewDelegate {
 
+    
     @IBOutlet weak var backGroundBtn: UIButton!
     @IBOutlet weak var centerPopUpConstraint: NSLayoutConstraint!
     @IBOutlet weak var popUpView: UIView!
@@ -29,6 +31,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var instagramBlack: UIButton!
     @IBOutlet weak var instagramBlue: UIButton!
   
+    @IBOutlet weak var bannerView: GADBannerView!
+   
+   
     
     let soundFilesNames = ["hi_Mark", "introsong", "its_a_good_bro_servey", "rUgoodBro", "savage_doggy", "whatsInTheBox", "whatspapping", "drivingWithEven", "gotchubro", "hoodie", "littleBrother", "noHoney", "plates", "thatsMyBoy", "Yah yeet"]
     
@@ -36,11 +41,19 @@ class ViewController: UIViewController {
     
     var lastAudioPlayer = 0
     var sw = false
-         
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         popUpView.layer.cornerRadius = 15
         popUpView.layer.masksToBounds = true
+        
+        bannerView.adUnitID = "ca-app-pub-2103888227716232/2446723963"
+        bannerView.rootViewController = self
+        
+        
+        bannerView.load(GADRequest())
         
         
         

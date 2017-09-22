@@ -529,6 +529,25 @@ layer.masksToBounds
                                                     <constraint firstAttribute="bottom" secondItem="43A-eh-RA6" secondAttribute="bottom" id="z1v-gG-kns"/>
                                                 </constraints>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQf-Sl-v5V">
+                                                <rect key="frame" x="0.0" y="636" width="414" height="100"/>
+                                                <color key="backgroundColor" red="0.35422936081886292" green="0.60743200778961182" blue="0.96082901954650879" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="wBp-vx-ocE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                <state key="normal" title="Remove Adds + More Sounds">
+                                                    <color key="titleColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cki-CT-ang" customClass="GADBannerView">
+                                                <rect key="frame" x="47" y="686" width="320" height="50"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="320" id="LLM-oH-ida"/>
+                                                    <constraint firstAttribute="height" constant="50" id="jYG-cJ-poA"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -669,6 +688,7 @@ layer.masksToBounds
                                             <constraint firstItem="4zk-VK-hFd" firstAttribute="top" secondItem="um7-m5-Sbs" secondAttribute="bottom" constant="25" id="Tag-Yw-JFP"/>
                                             <constraint firstAttribute="bottom" secondItem="6uy-5D-JPC" secondAttribute="bottom" constant="163" id="Tus-ni-VwC"/>
                                             <constraint firstItem="p0d-A3-qep" firstAttribute="top" secondItem="FwO-AH-ywg" secondAttribute="bottom" constant="26" id="UQk-HW-Ap3"/>
+                                            <constraint firstItem="GQf-Sl-v5V" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" id="UUP-5p-P6W"/>
                                             <constraint firstAttribute="trailing" secondItem="ukd-kz-6hh" secondAttribute="trailing" constant="86" id="UdP-2O-kzr">
                                                 <variation key="widthClass=regular" constant="170"/>
                                             </constraint>
@@ -759,6 +779,7 @@ layer.masksToBounds
                                                 <variation key="widthClass=regular" constant="50"/>
                                             </constraint>
                                             <constraint firstItem="RMV-WX-sxw" firstAttribute="top" secondItem="1fX-Ws-vjM" secondAttribute="bottom" constant="25" id="kNA-jT-gcV"/>
+                                            <constraint firstAttribute="trailing" secondItem="GQf-Sl-v5V" secondAttribute="trailing" id="ktQ-1p-wid"/>
                                             <constraint firstItem="Yru-w6-zKA" firstAttribute="top" secondItem="p0d-A3-qep" secondAttribute="bottom" constant="29" id="mHI-yo-EXj"/>
                                             <constraint firstItem="Ec7-zu-VjR" firstAttribute="top" secondItem="RVG-a6-iTZ" secondAttribute="top" constant="31" id="mjH-cM-d08"/>
                                             <constraint firstItem="aGa-S6-L1W" firstAttribute="top" secondItem="laN-pp-xh6" secondAttribute="bottom" constant="25" id="nEa-SQ-1ZL"/>
@@ -809,16 +830,21 @@ layer.masksToBounds
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="GQf-Sl-v5V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1OM-2W-Rxp"/>
                             <constraint firstItem="RVG-a6-iTZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="6Pc-M1-gyt"/>
                             <constraint firstAttribute="trailing" secondItem="WpV-N1-nv5" secondAttribute="trailing" id="MQa-b8-6Ca"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WpV-N1-nv5" secondAttribute="bottom" id="NjP-ql-teQ"/>
+                            <constraint firstItem="Cki-CT-ang" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NrQ-h5-Xlw"/>
                             <constraint firstItem="RVG-a6-iTZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="UQF-rB-12Z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GQf-Sl-v5V" secondAttribute="bottom" id="XW1-hj-NNx"/>
                             <constraint firstItem="WpV-N1-nv5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eD0-55-d6B"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cki-CT-ang" secondAttribute="bottom" id="eNw-mT-zCy"/>
                             <constraint firstItem="WpV-N1-nv5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sTv-Ys-PQK"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="backGroundBtn" destination="f5P-ER-IbC" id="DGP-2i-D31"/>
+                        <outlet property="bannerView" destination="Cki-CT-ang" id="Bqt-5a-z86"/>
                         <outlet property="bigBg" destination="8IV-Ce-xC9" id="qto-Lz-b22"/>
                         <outlet property="centerPopUpConstraint" destination="Lq0-Qg-pg9" id="anC-bg-Bqg"/>
                         <outlet property="face" destination="2ao-dB-CLU" id="BFo-2a-9j4"/>
@@ -837,7 +863,7 @@ layer.masksToBounds
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="806.25" y="79.225352112676063"/>
+            <point key="canvasLocation" x="805.79710144927537" y="79.076086956521749"/>
         </scene>
     </scenes>
     <resources>
