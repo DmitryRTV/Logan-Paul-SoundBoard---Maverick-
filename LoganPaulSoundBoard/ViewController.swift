@@ -50,15 +50,14 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         popUpView.layer.cornerRadius = 15
         popUpView.layer.masksToBounds = true
         
-        if UserDefaults.standard.bool(forKey: PurchaseManager.instance.IAP_REMOVE_ADS) == nil {
+        if UserDefaults.standard.bool(forKey: PurchaseManager.instance.IAP_REMOVE_ADS)  {
+            removeAdsBtn.removeFromSuperview()
+            bannerView.removeFromSuperview()
+        } else {
             
             bannerView.adUnitID = "ca-app-pub-2103888227716232/2446723963"
             bannerView.rootViewController = self
-            bannerView.load(GADRequest())
-        } else {
-            removeAdsBtn.removeFromSuperview()
-            bannerView.removeFromSuperview()
-        }
+            bannerView.load(GADRequest())        }
         
         
         
@@ -92,7 +91,16 @@ class ViewController: UIViewController, GADBannerViewDelegate {
           }
     
     @IBAction func removeAdsPressed(_ sender: Any) {
-        PurchaseManager.instance.purchaseRemoveAds()
+//        show acivity spinner ActivityIndicator
+        PurchaseManager.instance.purchaseRemoveAds { success in
+//            dismiss spinner
+            if success {
+                self.bannerView.removeFromSuperview()
+                self.removeAdsBtn.removeFromSuperview()
+            } else {
+//                 show massage to the user why it failed
+            }
+        }
     }
     
     
