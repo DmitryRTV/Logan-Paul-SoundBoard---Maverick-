@@ -32,6 +32,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var instagramBlue: UIButton!
   
     @IBOutlet weak var bannerView: GADBannerView!
+    @IBOutlet weak var removeAdsBtn: UIButton!
    
    
     
@@ -49,11 +50,18 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         popUpView.layer.cornerRadius = 15
         popUpView.layer.masksToBounds = true
         
-        bannerView.adUnitID = "ca-app-pub-2103888227716232/2446723963"
-        bannerView.rootViewController = self
+        if UserDefaults.standard.bool(forKey: PurchaseManager.instance.IAP_REMOVE_ADS) == nil {
+            
+            bannerView.adUnitID = "ca-app-pub-2103888227716232/2446723963"
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+        } else {
+            removeAdsBtn.removeFromSuperview()
+            bannerView.removeFromSuperview()
+        }
         
         
-        bannerView.load(GADRequest())
+        
         
         
         
@@ -83,6 +91,9 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         }
           }
     
+    @IBAction func removeAdsPressed(_ sender: Any) {
+        PurchaseManager.instance.purchaseRemoveAds()
+    }
     
     
     @IBAction func btnPressed(_ sender: UIButton) {

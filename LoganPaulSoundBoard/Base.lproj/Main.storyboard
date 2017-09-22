@@ -539,6 +539,9 @@ layer.masksToBounds
                                                 <state key="normal" title="Remove Adds + More Sounds">
                                                     <color key="titleColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="removeAdsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhG-XY-gex"/>
+                                                </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cki-CT-ang" customClass="GADBannerView">
                                                 <rect key="frame" x="47" y="686" width="320" height="50"/>
@@ -856,6 +859,7 @@ layer.masksToBounds
                         <outlet property="instagramBlue" destination="KWM-gp-i7Q" id="IfS-Ox-0Ew"/>
                         <outlet property="mavreck2" destination="Ygb-Ve-yuw" id="qeL-vB-mHE"/>
                         <outlet property="popUpView" destination="Itk-Zx-9XM" id="k2y-EK-GAI"/>
+                        <outlet property="removeAdsBtn" destination="GQf-Sl-v5V" id="ZOT-IB-9Yu"/>
                         <outlet property="smallBg" destination="43A-eh-RA6" id="JZ3-ej-KKk"/>
                         <outlet property="twitterBack" destination="xa2-dv-jzo" id="DFn-5c-cpH"/>
                         <outlet property="twitterBlue" destination="mob-1u-bQi" id="vi0-kj-LcV"/>
