@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,81 +22,81 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpV-N1-nv5">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RVG-a6-iTZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1500"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-Ce-xC9">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="768" height="1500"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1500" id="JfK-O5-Cl1"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feathers3" translatesAutoresizingMaskIntoConstraints="NO" id="TUM-2N-FF9" userLabel="feathers3Main">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="768" height="1500"/>
                                             </imageView>
                                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="2ao-dB-CLU" userLabel="face">
-                                                <rect key="frame" x="25" y="15" width="363" height="156"/>
+                                                <rect key="frame" x="25" y="15" width="717" height="156"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MavrickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="juX-k0-Cgd" userLabel="headMavrickLogo">
-                                                <rect key="frame" x="87" y="23" width="240" height="128"/>
+                                                <rect key="frame" x="264" y="23" width="240" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="Kyp-lx-VlV"/>
                                                     <constraint firstAttribute="width" constant="240" id="uC0-Kk-jxC"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="SOv-Mn-tve">
-                                                <rect key="frame" x="86" y="105" width="328" height="224"/>
+                                                <rect key="frame" x="170" y="105" width="548" height="224"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="ukd-kz-6hh">
-                                                <rect key="frame" x="0.0" y="188" width="328" height="224"/>
+                                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="ukd-kz-6hh">
+                                                <rect key="frame" x="50" y="188" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="p0d-A3-qep">
-                                                <rect key="frame" x="86" y="273" width="328" height="224"/>
+                                                <rect key="frame" x="170" y="273" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="RFw-cd-q9v">
-                                                <rect key="frame" x="0.0" y="358" width="328" height="224"/>
+                                                <rect key="frame" x="50" y="358" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="33s-If-InC">
-                                                <rect key="frame" x="86" y="442" width="328" height="224"/>
+                                                <rect key="frame" x="170" y="442" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="Yru-w6-zKA">
-                                                <rect key="frame" x="0.0" y="526" width="328" height="224"/>
+                                                <rect key="frame" x="50" y="526" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="beW-Jc-dNo">
-                                                <rect key="frame" x="86" y="610" width="328" height="224"/>
+                                                <rect key="frame" x="170" y="610" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="Vna-W7-l9B">
-                                                <rect key="frame" x="0.0" y="693" width="328" height="224"/>
+                                                <rect key="frame" x="50" y="693" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="lgf-fb-BgC">
-                                                <rect key="frame" x="86" y="777" width="328" height="224"/>
+                                                <rect key="frame" x="170" y="777" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="4zk-VK-hFd">
-                                                <rect key="frame" x="0.0" y="861" width="328" height="224"/>
+                                                <rect key="frame" x="50" y="861" width="548" height="224"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenBar" translatesAutoresizingMaskIntoConstraints="NO" id="r4u-r4-iKP">
-                                                <rect key="frame" x="86" y="944" width="328" height="225"/>
+                                                <rect key="frame" x="170" y="944" width="548" height="225"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBar" translatesAutoresizingMaskIntoConstraints="NO" id="Ziv-55-wEz">
-                                                <rect key="frame" x="0.0" y="1028" width="328" height="225"/>
+                                                <rect key="frame" x="50" y="1028" width="548" height="225"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redBar" translatesAutoresizingMaskIntoConstraints="NO" id="6uy-5D-JPC">
-                                                <rect key="frame" x="86" y="1112" width="328" height="225"/>
+                                                <rect key="frame" x="170" y="1112" width="548" height="225"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBar" translatesAutoresizingMaskIntoConstraints="NO" id="aGa-S6-L1W">
-                                                <rect key="frame" x="0.0" y="1196" width="328" height="227"/>
+                                                <rect key="frame" x="50" y="1196" width="548" height="227"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightgreenBra" translatesAutoresizingMaskIntoConstraints="NO" id="23L-RH-0PD">
-                                                <rect key="frame" x="86" y="1280" width="328" height="230"/>
+                                                <rect key="frame" x="170" y="1280" width="548" height="230"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ec7-zu-VjR" userLabel="settingBtn">
-                                                <rect key="frame" x="309" y="31" width="86" height="66"/>
+                                                <rect key="frame" x="582" y="31" width="86" height="66"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="66" id="FuV-uq-zd6"/>
                                                     <constraint firstAttribute="width" constant="86" id="amR-by-RW6"/>
@@ -108,7 +107,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-AH-ywg" userLabel="1" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="110" y="188" width="278" height="59"/>
+                                                <rect key="frame" x="210" y="188" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="Intro to vlog">
@@ -123,7 +122,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdY-3r-fKS" userLabel="2" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="25" y="271" width="278" height="59"/>
+                                                <rect key="frame" x="90" y="271" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="You good bro?">
@@ -138,7 +137,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpO-5W-crU" userLabel="3" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="111" y="356" width="278" height="59"/>
+                                                <rect key="frame" x="210" y="356" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="Whats popping?">
@@ -153,7 +152,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-DP-QEH" userLabel="4" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="111" y="525" width="278" height="59"/>
+                                                <rect key="frame" x="210" y="525" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="Kong da savage ">
@@ -168,7 +167,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfN-lr-xOT" userLabel="5" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="25" y="610" width="278" height="59"/>
+                                                <rect key="frame" x="90" y="610" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="gotchu bro">
@@ -183,7 +182,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlI-yu-LWh" userLabel="6" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="111" y="693" width="278" height="59"/>
+                                                <rect key="frame" x="210" y="693" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="thats My Boy">
@@ -198,7 +197,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-Iy-NqR" userLabel="7" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="25" y="441" width="278" height="59"/>
+                                                <rect key="frame" x="90" y="441" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title=" survey">
@@ -213,7 +212,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-m5-Sbs" userLabel="8" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="25" y="777" width="278" height="59"/>
+                                                <rect key="frame" x="90" y="777" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="Yah Yeet">
@@ -228,7 +227,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHi-nI-Mfr" userLabel="9" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="111" y="861" width="278" height="59"/>
+                                                <rect key="frame" x="210" y="861" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="no Honey No">
@@ -243,7 +242,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-Ws-vjM" userLabel="10" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="15" y="944" width="299" height="59"/>
+                                                <rect key="frame" x="90" y="944" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="14"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="driving With Even">
@@ -258,7 +257,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMV-WX-sxw" userLabel="11" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="111" y="1028" width="278" height="59"/>
+                                                <rect key="frame" x="210" y="1028" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="plates">
@@ -273,7 +272,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laN-pp-xh6" userLabel="12" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="25" y="1112" width="278" height="59"/>
+                                                <rect key="frame" x="90" y="1112" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="hoodie">
@@ -288,7 +287,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFM-nK-8Ok" userLabel="13" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="105" y="1196" width="294" height="59"/>
+                                                <rect key="frame" x="210" y="1196" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="little Brother">
@@ -303,7 +302,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMp-ju-Wdd" userLabel="14" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="15" y="1280" width="300" height="59"/>
+                                                <rect key="frame" x="90" y="1280" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="15"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="whats In The Box?">
@@ -318,7 +317,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-OL-QfA" userLabel="15" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
-                                                <rect key="frame" x="111" y="1366" width="278" height="59"/>
+                                                <rect key="frame" x="210" y="1366" width="468" height="59"/>
                                                 <fontDescription key="fontDescription" name="Fvriosa" family="Fvriosa" pointSize="17"/>
                                                 <size key="titleShadowOffset" width="1" height="0.5"/>
                                                 <state key="normal" title="Hi Mark">
@@ -333,20 +332,20 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5P-ER-IbC" userLabel="bGbn">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="768" height="1500"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="closePopUo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHh-Us-YnO"/>
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Itk-Zx-9XM">
-                                                <rect key="frame" x="-653" y="25.666666666666657" width="320" height="449"/>
+                                                <rect key="frame" x="-476" y="25.5" width="320" height="449"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="43A-eh-RA6">
-                                                        <rect key="frame" x="0.0" y="-0.66666666666665719" width="320" height="449"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="320" height="449"/>
                                                     </imageView>
                                                     <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feathers3" translatesAutoresizingMaskIntoConstraints="NO" id="DqY-KM-KLp">
-                                                        <rect key="frame" x="0.0" y="-0.66666666666665719" width="320" height="449"/>
+                                                        <rect key="frame" x="0.0" y="-0.5" width="320" height="449"/>
                                                     </imageView>
                                                     <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBA-gk-7gY" customClass="BounceButton" customModule="LoganPaulSoundBoard" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="385" width="320" height="64"/>
@@ -445,7 +444,7 @@ layer.masksToBounds
                                                         <rect key="frame" x="0.0" y="7" width="320" height="128"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mob-1u-bQi" userLabel="TwitterBlue">
-                                                        <rect key="frame" x="252" y="83" width="38" height="37.999999999999986"/>
+                                                        <rect key="frame" x="252" y="83" width="38" height="38"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="38" id="3bI-nz-f6C"/>
                                                             <constraint firstAttribute="width" constant="38" id="v47-rQ-ZcU"/>
@@ -456,7 +455,7 @@ layer.masksToBounds
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWM-gp-i7Q">
-                                                        <rect key="frame" x="252" y="30.999999999999996" width="38" height="38"/>
+                                                        <rect key="frame" x="252" y="31" width="38" height="38"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="38" id="f1O-lr-FId"/>
                                                             <constraint firstAttribute="width" constant="38" id="oXm-yf-KHK"/>
@@ -467,7 +466,7 @@ layer.masksToBounds
                                                         </connections>
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9k-gf-bkB" userLabel="instagramB">
-                                                        <rect key="frame" x="252" y="30.999999999999996" width="38" height="38"/>
+                                                        <rect key="frame" x="252" y="31" width="38" height="38"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="38" id="N6q-gt-c9w"/>
                                                             <constraint firstAttribute="height" constant="38" id="Onb-A6-6Nn"/>
@@ -478,7 +477,7 @@ layer.masksToBounds
                                                         </connections>
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa2-dv-jzo" userLabel="TwitterBlack">
-                                                        <rect key="frame" x="252" y="83" width="38" height="37.999999999999986"/>
+                                                        <rect key="frame" x="252" y="83" width="38" height="38"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="38" id="6hl-Iz-55z"/>
                                                             <constraint firstAttribute="height" constant="38" id="Nmi-96-vO7"/>
@@ -488,13 +487,25 @@ layer.masksToBounds
                                                             <action selector="twitterBlackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="32P-D6-NSG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKn-y9-N4c" userLabel="restorePurchasesBtn">
-                                                        <rect key="frame" x="91" y="303" width="139" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3z-RU-GF8">
+                                                        <rect key="frame" x="15" y="295" width="110" height="30"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="139" id="BmJ-51-fZP"/>
-                                                            <constraint firstAttribute="height" constant="30" id="Maw-t4-jZa"/>
+                                                            <constraint firstAttribute="width" constant="110" id="LC6-lz-nGM"/>
+                                                            <constraint firstAttribute="height" constant="30" id="LfU-jG-kwf"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <state key="normal" title="Remove Ads"/>
+                                                        <connections>
+                                                            <action selector="removeAdsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DpL-dS-9zf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKn-y9-N4c" userLabel="restorePurchasesBtn">
+                                                        <rect key="frame" x="140" y="295" width="161" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="161" id="dF3-nT-QWS"/>
+                                                            <constraint firstAttribute="height" constant="30" id="fp7-av-CHf"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                         <state key="normal" title="Restore Purchases"/>
                                                         <connections>
                                                             <action selector="restoreBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yD-sd-kkp"/>
@@ -506,10 +517,9 @@ layer.masksToBounds
                                                     <constraint firstItem="pug-D4-D3T" firstAttribute="centerX" secondItem="hWf-Rf-AFW" secondAttribute="centerX" id="1oR-vC-G1v"/>
                                                     <constraint firstItem="hWf-Rf-AFW" firstAttribute="centerX" secondItem="Hrn-QS-yyH" secondAttribute="centerX" id="3p6-Uz-GgB"/>
                                                     <constraint firstItem="Hrn-QS-yyH" firstAttribute="centerX" secondItem="X9G-iF-cBM" secondAttribute="centerX" id="4rC-ox-VTS"/>
-                                                    <constraint firstItem="EKn-y9-N4c" firstAttribute="centerX" secondItem="Itk-Zx-9XM" secondAttribute="centerX" id="53w-GY-THH"/>
                                                     <constraint firstItem="xa2-dv-jzo" firstAttribute="top" secondItem="J9k-gf-bkB" secondAttribute="bottom" constant="14" id="5Jm-l6-vK5"/>
                                                     <constraint firstItem="Ygb-Ve-yuw" firstAttribute="top" secondItem="Itk-Zx-9XM" secondAttribute="top" constant="7" id="5SQ-Vw-Ikj"/>
-                                                    <constraint firstItem="EKn-y9-N4c" firstAttribute="top" secondItem="hWf-Rf-AFW" secondAttribute="bottom" constant="38" id="7FL-SU-K2A"/>
+                                                    <constraint firstItem="p3z-RU-GF8" firstAttribute="top" secondItem="hWf-Rf-AFW" secondAttribute="bottom" constant="30" id="82N-lh-ccf"/>
                                                     <constraint firstAttribute="bottom" secondItem="zBA-gk-7gY" secondAttribute="bottom" id="9C7-gM-Ot7"/>
                                                     <constraint firstItem="hWf-Rf-AFW" firstAttribute="top" secondItem="Hrn-QS-yyH" secondAttribute="bottom" constant="9" id="9d5-Ip-Ubs"/>
                                                     <constraint firstItem="DqY-KM-KLp" firstAttribute="centerY" secondItem="43A-eh-RA6" secondAttribute="centerY" id="9jz-KA-qYf"/>
@@ -525,6 +535,7 @@ layer.masksToBounds
                                                     <constraint firstItem="DqY-KM-KLp" firstAttribute="height" secondItem="43A-eh-RA6" secondAttribute="height" id="UPt-1W-e3l"/>
                                                     <constraint firstItem="43A-eh-RA6" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" id="X1H-Dz-S9B"/>
                                                     <constraint firstItem="mob-1u-bQi" firstAttribute="top" secondItem="J9k-gf-bkB" secondAttribute="bottom" constant="14" id="XpZ-OI-8T3"/>
+                                                    <constraint firstAttribute="trailing" secondItem="EKn-y9-N4c" secondAttribute="trailing" constant="19" id="Yg9-n4-183"/>
                                                     <constraint firstItem="Ygb-Ve-yuw" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" id="Yi8-q1-xRr"/>
                                                     <constraint firstAttribute="trailing" secondItem="KWM-gp-i7Q" secondAttribute="trailing" constant="30" id="ZoM-Qv-MDO"/>
                                                     <constraint firstItem="KWM-gp-i7Q" firstAttribute="top" secondItem="Itk-Zx-9XM" secondAttribute="top" constant="31" id="aYg-B6-WqF"/>
@@ -536,29 +547,17 @@ layer.masksToBounds
                                                     <constraint firstAttribute="trailing" secondItem="43A-eh-RA6" secondAttribute="trailing" id="koc-7b-AmP"/>
                                                     <constraint firstAttribute="trailing" secondItem="0Oy-yZ-CIO" secondAttribute="trailing" constant="68" id="lAF-T7-hk0"/>
                                                     <constraint firstItem="Hrn-QS-yyH" firstAttribute="top" secondItem="Ygb-Ve-yuw" secondAttribute="bottom" constant="19" id="nUQ-gA-Sgw"/>
+                                                    <constraint firstItem="p3z-RU-GF8" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" constant="15" id="oE2-EH-h1b"/>
                                                     <constraint firstAttribute="height" constant="449" id="qHm-Ae-OH9"/>
+                                                    <constraint firstItem="EKn-y9-N4c" firstAttribute="top" secondItem="hWf-Rf-AFW" secondAttribute="bottom" constant="30" id="r5T-9m-tli"/>
                                                     <constraint firstAttribute="width" constant="320" id="tGh-NJ-T6u"/>
                                                     <constraint firstAttribute="trailing" secondItem="zBA-gk-7gY" secondAttribute="trailing" id="thJ-pa-h7s"/>
                                                     <constraint firstItem="0Oy-yZ-CIO" firstAttribute="centerY" secondItem="pug-D4-D3T" secondAttribute="centerY" id="z0R-EA-sYx"/>
                                                     <constraint firstAttribute="bottom" secondItem="43A-eh-RA6" secondAttribute="bottom" id="z1v-gG-kns"/>
                                                 </constraints>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQf-Sl-v5V">
-                                                <rect key="frame" x="0.0" y="636" width="414" height="100"/>
-                                                <color key="backgroundColor" red="0.35422936081886292" green="0.60743200778961182" blue="0.96082901954650879" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="wBp-vx-ocE"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                                <state key="normal" title="Remove Adds + More Sounds">
-                                                    <color key="titleColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="removeAdsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhG-XY-gex"/>
-                                                </connections>
-                                            </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cki-CT-ang" customClass="GADBannerView">
-                                                <rect key="frame" x="47" y="686" width="320" height="50"/>
+                                                <rect key="frame" x="224" y="974" width="320" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="320" id="LLM-oH-ida"/>
@@ -705,7 +704,6 @@ layer.masksToBounds
                                             <constraint firstItem="4zk-VK-hFd" firstAttribute="top" secondItem="um7-m5-Sbs" secondAttribute="bottom" constant="25" id="Tag-Yw-JFP"/>
                                             <constraint firstAttribute="bottom" secondItem="6uy-5D-JPC" secondAttribute="bottom" constant="163" id="Tus-ni-VwC"/>
                                             <constraint firstItem="p0d-A3-qep" firstAttribute="top" secondItem="FwO-AH-ywg" secondAttribute="bottom" constant="26" id="UQk-HW-Ap3"/>
-                                            <constraint firstItem="GQf-Sl-v5V" firstAttribute="leading" secondItem="RVG-a6-iTZ" secondAttribute="leading" id="UUP-5p-P6W"/>
                                             <constraint firstAttribute="trailing" secondItem="ukd-kz-6hh" secondAttribute="trailing" constant="86" id="UdP-2O-kzr">
                                                 <variation key="widthClass=regular" constant="170"/>
                                             </constraint>
@@ -796,7 +794,6 @@ layer.masksToBounds
                                                 <variation key="widthClass=regular" constant="50"/>
                                             </constraint>
                                             <constraint firstItem="RMV-WX-sxw" firstAttribute="top" secondItem="1fX-Ws-vjM" secondAttribute="bottom" constant="25" id="kNA-jT-gcV"/>
-                                            <constraint firstAttribute="trailing" secondItem="GQf-Sl-v5V" secondAttribute="trailing" id="ktQ-1p-wid"/>
                                             <constraint firstItem="Yru-w6-zKA" firstAttribute="top" secondItem="p0d-A3-qep" secondAttribute="bottom" constant="29" id="mHI-yo-EXj"/>
                                             <constraint firstItem="Ec7-zu-VjR" firstAttribute="top" secondItem="RVG-a6-iTZ" secondAttribute="top" constant="31" id="mjH-cM-d08"/>
                                             <constraint firstItem="aGa-S6-L1W" firstAttribute="top" secondItem="laN-pp-xh6" secondAttribute="bottom" constant="25" id="nEa-SQ-1ZL"/>
@@ -847,13 +844,11 @@ layer.masksToBounds
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="GQf-Sl-v5V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1OM-2W-Rxp"/>
                             <constraint firstItem="RVG-a6-iTZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="6Pc-M1-gyt"/>
                             <constraint firstAttribute="trailing" secondItem="WpV-N1-nv5" secondAttribute="trailing" id="MQa-b8-6Ca"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WpV-N1-nv5" secondAttribute="bottom" id="NjP-ql-teQ"/>
                             <constraint firstItem="Cki-CT-ang" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NrQ-h5-Xlw"/>
                             <constraint firstItem="RVG-a6-iTZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="UQF-rB-12Z"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GQf-Sl-v5V" secondAttribute="bottom" id="XW1-hj-NNx"/>
                             <constraint firstItem="WpV-N1-nv5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eD0-55-d6B"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cki-CT-ang" secondAttribute="bottom" id="eNw-mT-zCy"/>
                             <constraint firstItem="WpV-N1-nv5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sTv-Ys-PQK"/>
@@ -873,7 +868,7 @@ layer.masksToBounds
                         <outlet property="instagramBlue" destination="KWM-gp-i7Q" id="IfS-Ox-0Ew"/>
                         <outlet property="mavreck2" destination="Ygb-Ve-yuw" id="qeL-vB-mHE"/>
                         <outlet property="popUpView" destination="Itk-Zx-9XM" id="k2y-EK-GAI"/>
-                        <outlet property="removeAdsBtn" destination="GQf-Sl-v5V" id="ZOT-IB-9Yu"/>
+                        <outlet property="removeAdsBtn" destination="p3z-RU-GF8" id="zah-P3-PJz"/>
                         <outlet property="smallBg" destination="43A-eh-RA6" id="JZ3-ej-KKk"/>
                         <outlet property="twitterBack" destination="xa2-dv-jzo" id="DFn-5c-cpH"/>
                         <outlet property="twitterBlue" destination="mob-1u-bQi" id="vi0-kj-LcV"/>
@@ -889,7 +884,7 @@ layer.masksToBounds
         <image name="MavrickLogo" width="240" height="280"/>
         <image name="blueBar" width="1667" height="1667"/>
         <image name="face" width="900" height="900"/>
-        <image name="feathers3" width="1024" height="1589"/>
+        <image name="feathers3" width="750" height="1334"/>
         <image name="greenBar" width="1667" height="1667"/>
         <image name="heartitemenabled" width="30" height="30"/>
         <image name="instagram" width="128" height="128"/>

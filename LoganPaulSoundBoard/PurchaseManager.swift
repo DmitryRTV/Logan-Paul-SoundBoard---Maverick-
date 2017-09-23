@@ -84,3 +84,4 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
     }
 }
 
+
