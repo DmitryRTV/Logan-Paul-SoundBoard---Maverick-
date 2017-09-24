@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         GADMobileAds.configure(withApplicationID: "ca-app-pub-2103888227716232/2446723963")
-        PurchaseManager.instance.fetchProducts()
+        
         return true
             }
 

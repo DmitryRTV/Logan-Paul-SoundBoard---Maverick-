@@ -487,30 +487,6 @@ layer.masksToBounds
                                                             <action selector="twitterBlackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="32P-D6-NSG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3z-RU-GF8">
-                                                        <rect key="frame" x="15" y="295" width="110" height="30"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="110" id="LC6-lz-nGM"/>
-                                                            <constraint firstAttribute="height" constant="30" id="LfU-jG-kwf"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                        <state key="normal" title="Remove Ads"/>
-                                                        <connections>
-                                                            <action selector="removeAdsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DpL-dS-9zf"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKn-y9-N4c" userLabel="restorePurchasesBtn">
-                                                        <rect key="frame" x="140" y="295" width="161" height="30"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="161" id="dF3-nT-QWS"/>
-                                                            <constraint firstAttribute="height" constant="30" id="fp7-av-CHf"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                        <state key="normal" title="Restore Purchases"/>
-                                                        <connections>
-                                                            <action selector="restoreBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yD-sd-kkp"/>
-                                                        </connections>
-                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.73824581938632372" green="0.97100774744383778" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -519,7 +495,6 @@ layer.masksToBounds
                                                     <constraint firstItem="Hrn-QS-yyH" firstAttribute="centerX" secondItem="X9G-iF-cBM" secondAttribute="centerX" id="4rC-ox-VTS"/>
                                                     <constraint firstItem="xa2-dv-jzo" firstAttribute="top" secondItem="J9k-gf-bkB" secondAttribute="bottom" constant="14" id="5Jm-l6-vK5"/>
                                                     <constraint firstItem="Ygb-Ve-yuw" firstAttribute="top" secondItem="Itk-Zx-9XM" secondAttribute="top" constant="7" id="5SQ-Vw-Ikj"/>
-                                                    <constraint firstItem="p3z-RU-GF8" firstAttribute="top" secondItem="hWf-Rf-AFW" secondAttribute="bottom" constant="30" id="82N-lh-ccf"/>
                                                     <constraint firstAttribute="bottom" secondItem="zBA-gk-7gY" secondAttribute="bottom" id="9C7-gM-Ot7"/>
                                                     <constraint firstItem="hWf-Rf-AFW" firstAttribute="top" secondItem="Hrn-QS-yyH" secondAttribute="bottom" constant="9" id="9d5-Ip-Ubs"/>
                                                     <constraint firstItem="DqY-KM-KLp" firstAttribute="centerY" secondItem="43A-eh-RA6" secondAttribute="centerY" id="9jz-KA-qYf"/>
@@ -535,7 +510,6 @@ layer.masksToBounds
                                                     <constraint firstItem="DqY-KM-KLp" firstAttribute="height" secondItem="43A-eh-RA6" secondAttribute="height" id="UPt-1W-e3l"/>
                                                     <constraint firstItem="43A-eh-RA6" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" id="X1H-Dz-S9B"/>
                                                     <constraint firstItem="mob-1u-bQi" firstAttribute="top" secondItem="J9k-gf-bkB" secondAttribute="bottom" constant="14" id="XpZ-OI-8T3"/>
-                                                    <constraint firstAttribute="trailing" secondItem="EKn-y9-N4c" secondAttribute="trailing" constant="19" id="Yg9-n4-183"/>
                                                     <constraint firstItem="Ygb-Ve-yuw" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" id="Yi8-q1-xRr"/>
                                                     <constraint firstAttribute="trailing" secondItem="KWM-gp-i7Q" secondAttribute="trailing" constant="30" id="ZoM-Qv-MDO"/>
                                                     <constraint firstItem="KWM-gp-i7Q" firstAttribute="top" secondItem="Itk-Zx-9XM" secondAttribute="top" constant="31" id="aYg-B6-WqF"/>
@@ -547,9 +521,7 @@ layer.masksToBounds
                                                     <constraint firstAttribute="trailing" secondItem="43A-eh-RA6" secondAttribute="trailing" id="koc-7b-AmP"/>
                                                     <constraint firstAttribute="trailing" secondItem="0Oy-yZ-CIO" secondAttribute="trailing" constant="68" id="lAF-T7-hk0"/>
                                                     <constraint firstItem="Hrn-QS-yyH" firstAttribute="top" secondItem="Ygb-Ve-yuw" secondAttribute="bottom" constant="19" id="nUQ-gA-Sgw"/>
-                                                    <constraint firstItem="p3z-RU-GF8" firstAttribute="leading" secondItem="Itk-Zx-9XM" secondAttribute="leading" constant="15" id="oE2-EH-h1b"/>
                                                     <constraint firstAttribute="height" constant="449" id="qHm-Ae-OH9"/>
-                                                    <constraint firstItem="EKn-y9-N4c" firstAttribute="top" secondItem="hWf-Rf-AFW" secondAttribute="bottom" constant="30" id="r5T-9m-tli"/>
                                                     <constraint firstAttribute="width" constant="320" id="tGh-NJ-T6u"/>
                                                     <constraint firstAttribute="trailing" secondItem="zBA-gk-7gY" secondAttribute="trailing" id="thJ-pa-h7s"/>
                                                     <constraint firstItem="0Oy-yZ-CIO" firstAttribute="centerY" secondItem="pug-D4-D3T" secondAttribute="centerY" id="z0R-EA-sYx"/>
@@ -868,7 +840,6 @@ layer.masksToBounds
                         <outlet property="instagramBlue" destination="KWM-gp-i7Q" id="IfS-Ox-0Ew"/>
                         <outlet property="mavreck2" destination="Ygb-Ve-yuw" id="qeL-vB-mHE"/>
                         <outlet property="popUpView" destination="Itk-Zx-9XM" id="k2y-EK-GAI"/>
-                        <outlet property="removeAdsBtn" destination="p3z-RU-GF8" id="zah-P3-PJz"/>
                         <outlet property="smallBg" destination="43A-eh-RA6" id="JZ3-ej-KKk"/>
                         <outlet property="twitterBack" destination="xa2-dv-jzo" id="DFn-5c-cpH"/>
                         <outlet property="twitterBlue" destination="mob-1u-bQi" id="vi0-kj-LcV"/>

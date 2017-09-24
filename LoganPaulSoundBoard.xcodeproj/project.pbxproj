@@ -13,8 +13,6 @@
 		BF2A51E11F74443400CAC235 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2A51E01F74443400CAC235 /* GoogleService-Info.plist */; };
 		BF2A51E21F744D4D00CAC235 /* GoogleMobileAds.framework in Resources */ = {isa = PBXBuildFile; fileRef = BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */; };
 		BF2A51E31F744D4D00CAC235 /* AVFoundation.framework in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2B21F72F6A200249800 /* AVFoundation.framework */; };
-		BF2A51E51F748ABA00CAC235 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2A51E41F748ABA00CAC235 /* StoreKit.framework */; };
-		BF2A51E81F749BF100CAC235 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A51E71F749BF100CAC235 /* PurchaseManager.swift */; };
 		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
 		BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */; };
@@ -58,8 +56,6 @@
 		BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 		BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		BF2A51E01F74443400CAC235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BF2A51E41F748ABA00CAC235 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		BF2A51E71F749BF100CAC235 /* PurchaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		BF89017E1F6278F60020E9DC /* Fvriosa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fvriosa.ttf; sourceTree = "<group>"; };
 		BFA4C4061F48B9E200BF4ED7 /* LoganPaulSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoganPaulSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2A51E51F748ABA00CAC235 /* StoreKit.framework in Frameworks */,
 				BF2A51DF1F7443F500CAC235 /* GoogleMobileAds.framework in Frameworks */,
 				BF17C2B31F72F6A200249800 /* AVFoundation.framework in Frameworks */,
 			);
@@ -109,19 +104,10 @@
 		BF17C2B11F72F6A200249800 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF2A51E41F748ABA00CAC235 /* StoreKit.framework */,
 				BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */,
 				BF17C2B21F72F6A200249800 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF2A51E61F749BC100CAC235 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				BF2A51E71F749BF100CAC235 /* PurchaseManager.swift */,
-			);
-			name = Services;
 			sourceTree = "<group>";
 		};
 		BF3B04131F62F16800975DA5 /* Controllers */ = {
@@ -162,7 +148,6 @@
 		BFA4C4081F48B9E200BF4ED7 /* LoganPaulSoundBoard */ = {
 			isa = PBXGroup;
 			children = (
-				BF2A51E61F749BC100CAC235 /* Services */,
 				BF17C2A11F72F4D600249800 /* sounds */,
 				BF8901801F6279090020E9DC /* fonts */,
 				BF3B04131F62F16800975DA5 /* Controllers */,
@@ -212,7 +197,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -275,7 +260,6 @@
 			files = (
 				BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */,
 				BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */,
-				BF2A51E81F749BF100CAC235 /* PurchaseManager.swift in Sources */,
 				BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
