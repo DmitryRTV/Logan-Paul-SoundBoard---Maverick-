@@ -10,9 +10,6 @@
 		BF17C2B31F72F6A200249800 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF17C2B21F72F6A200249800 /* AVFoundation.framework */; };
 		BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */; };
 		BF2A51DF1F7443F500CAC235 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */; };
-		BF2A51E11F74443400CAC235 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2A51E01F74443400CAC235 /* GoogleService-Info.plist */; };
-		BF2A51E21F744D4D00CAC235 /* GoogleMobileAds.framework in Resources */ = {isa = PBXBuildFile; fileRef = BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */; };
-		BF2A51E31F744D4D00CAC235 /* AVFoundation.framework in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2B21F72F6A200249800 /* AVFoundation.framework */; };
 		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
 		BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */; };
@@ -226,8 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2A51E21F744D4D00CAC235 /* GoogleMobileAds.framework in Resources */,
-				BF2A51E31F744D4D00CAC235 /* AVFoundation.framework in Resources */,
 				BFDD45201F7367D800DA8A31 /* hi_Mark.wav in Resources */,
 				BFDD45211F7367D800DA8A31 /* introsong.wav in Resources */,
 				BFDD45221F7367D800DA8A31 /* its_a_good_bro_servey.wav in Resources */,
@@ -245,7 +240,6 @@
 				BFDD452E1F7367D800DA8A31 /* Yah yeet.wav in Resources */,
 				BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */,
 				BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */,
-				BF2A51E11F74443400CAC235 /* GoogleService-Info.plist in Resources */,
 				BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */,
 				BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */,
 			);
