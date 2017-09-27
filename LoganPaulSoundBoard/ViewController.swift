@@ -85,6 +85,11 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     
    
     
+    @IBAction func likeTheApp(_ sender: Any) {
+        let appDelegate = AppDelegate()
+        appDelegate.requaersReview()
+        
+    }
     
     
     @IBAction func btnPressed(_ sender: UIButton) {
