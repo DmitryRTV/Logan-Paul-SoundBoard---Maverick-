@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BF17C2B31F72F6A200249800 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF17C2B21F72F6A200249800 /* AVFoundation.framework */; };
 		BF1C95EF1F6B8E4F00C96A86 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C95EE1F6B8E4F00C96A86 /* BounceButton.swift */; };
+		BF29515A1F7B723900B4DE60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C4101F48B9E300BF4ED7 /* Assets.xcassets */; };
 		BF2A51DF1F7443F500CAC235 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2A51DE1F7443F500CAC235 /* GoogleMobileAds.framework */; };
 		BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF89017E1F6278F60020E9DC /* Fvriosa.ttf */; };
 		BFA4C40A1F48B9E200BF4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C4091F48B9E200BF4ED7 /* AppDelegate.swift */; };
 		BFA4C40C1F48B9E200BF4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C40B1F48B9E200BF4ED7 /* ViewController.swift */; };
 		BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C40D1F48B9E300BF4ED7 /* Main.storyboard */; };
-		BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C4101F48B9E300BF4ED7 /* Assets.xcassets */; };
 		BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C4121F48B9E300BF4ED7 /* LaunchScreen.storyboard */; };
 		BFDD45201F7367D800DA8A31 /* hi_Mark.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A61F72F51700249800 /* hi_Mark.wav */; };
 		BFDD45211F7367D800DA8A31 /* introsong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF17C2A21F72F51700249800 /* introsong.wav */; };
@@ -133,6 +133,7 @@
 				BF17C2B11F72F6A200249800 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		BFA4C4071F48B9E200BF4ED7 /* Products */ = {
 			isa = PBXGroup;
@@ -226,6 +227,7 @@
 				BFDD45201F7367D800DA8A31 /* hi_Mark.wav in Resources */,
 				BFDD45211F7367D800DA8A31 /* introsong.wav in Resources */,
 				BFDD45221F7367D800DA8A31 /* its_a_good_bro_servey.wav in Resources */,
+				BF29515A1F7B723900B4DE60 /* Assets.xcassets in Resources */,
 				BFDD45231F7367D800DA8A31 /* rUgoodBro.wav in Resources */,
 				BFDD45241F7367D800DA8A31 /* savage_doggy.wav in Resources */,
 				BFDD45251F7367D800DA8A31 /* whatsInTheBox.wav in Resources */,
@@ -239,7 +241,6 @@
 				BFDD452D1F7367D800DA8A31 /* thatsMyBoy.wav in Resources */,
 				BFDD452E1F7367D800DA8A31 /* Yah yeet.wav in Resources */,
 				BFA4C4141F48B9E300BF4ED7 /* LaunchScreen.storyboard in Resources */,
-				BFA4C4111F48B9E300BF4ED7 /* Assets.xcassets in Resources */,
 				BFA4C40F1F48B9E300BF4ED7 /* Main.storyboard in Resources */,
 				BF89017F1F6278F60020E9DC /* Fvriosa.ttf in Resources */,
 			);
@@ -405,7 +406,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryRTV.LoganPaulSoundBoard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Logan Pual Sound - Board";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -431,7 +432,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryRTV.LoganPaulSoundBoard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Logan Pual Sound - Board";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 3.0;
